@@ -12,6 +12,9 @@
 
 Actions are triggered by GitHub platform events directly in a repo and run on-demand workflows either on Linux, Windows or macOS virtual machines or inside a container in response. With GitHub Actions you can automate your workflow from idea to production.
 
+> [!IMPORTANT]
+> This is a fork of <https://github.com/sdras/awesome-actions>, this fork will be maintained ... or trying to be.
+
 ## Contents
 
 - [Official Resources](#official-resources)
