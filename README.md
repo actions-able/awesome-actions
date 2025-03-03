@@ -23,6 +23,7 @@ Actions are triggered by GitHub platform events directly in a repo and run on-de
   - [Official Actions](#official-actions)
   - [Create your Actions](#create-your-actions)
 - [Community Resources](#community-resources)
+  - [Setup Actions](#setup-actions)
   - [GitHub Tools and Management](#github-tools-and-management)
   - [Collection of Actions](#collection-of-actions)
   - [Utility](#utility)
@@ -80,7 +81,7 @@ Automate management for issues, pull requests, and releases.
 - [actions/labeler](https://github.com/actions/labeler) - An action for automatically labelling pull requests.
 - [actions/delete-package-versions](https://github.com/actions/delete-package-versions) - Delete versions of a package from GitHub Packages.
 
-#### Setup Actions
+#### Official Setup Actions
 
 Set up your GitHub Actions workflow with a specific version of your programming languages.
 
@@ -113,6 +114,14 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 <!--lint enable no-undefined-references-->
 
 ## Community Resources
+
+### Setup Actions
+
+- [Setup Haskell](https://github.com/haskell-actions/setup) - Setting up GHC, cabal, stack on for Haskell-related CIs.
+- [Setup Haskell hlint](https://github.com/haskell-actions/hlint-setup) - Reusable GitHub Action to set up hlint in a workflow. Use with haskell-actions/hlint-run.
+- [Setup Ruby](https://github.com/ruby/setup-ruby) - Download a prebuilt Ruby and add it to the PATH in 5 seconds.
+- [Setup Elixir](https://github.com/erlef/setup-beam) - Set up your BEAM-based GitHub Actions workflow (Erlang, Elixir, Gleam, and so on).
+- [Setup Julia](https://github.com/julia-actions/setup-julia) - Sets up a Julia environment for use in actions by downloading a specified version of Julia and adding it to PATH.
 
 ### GitHub Tools and Management
 
