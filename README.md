@@ -108,10 +108,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 
 #### Composite Actions
 
-<!--lint disable no-undefined-references-->
-> [!NOTE]
-> No links for this kind of actions. Please don't hesitate to contribute.
-<!--lint enable no-undefined-references-->
+- [GitHub Docs: creating a composite action](https://docs.github.com/en/actions/sharing-automations/creating-actions/creating-a-composite-action)
 
 ## Community Resources
 
