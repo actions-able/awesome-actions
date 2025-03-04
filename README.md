@@ -161,7 +161,9 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Code of Conduct Compliance Through Sentiments Analysis](https://github.com/derberg/code-of-conduct-sentiment-analysis-github-action) - Analyze sentiments in issues and PRs to identify negative content that may violate your code of conduct.
 - [GitHub Codeowners Validator](https://github.com/mszostok/codeowners-validator) - Ensures the correctness of your GitHub CODEOWNERS file. It supports public and private GitHub repositories and also GitHub Enterprise installations.
 - [Copybara Action](https://github.com/olivr/copybara-action) - Move and transform code between repositories (ideal to maintain several repos from one monorepo).
-- [Issue Watcher](https://github.com/anushkrishnav/Issue-Watcher) - Monitors and Restricts the number of Issues open by a person at a time to the given limit. Prements Issue spam.
+- [Action Docs Action](https://github.com/npalm/action-docs-action) - Update your README based the action.yml.
+- [Issue Watcher](https://github.com/anushkrishnav/Issue-Watcher) - Monitors and Restricts the number of Issues open by a person at a time to the given limit. Prevents Issue spam.
+
 ### Collection of Actions
 
 - [Use HashiCorp's Terraform](https://github.com/hashicorp/setup-terraform)
@@ -179,7 +181,6 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [GitHub Actions for Deno](https://github.com/denolib/setup-deno)
 - [GitHub Actions for Unity](https://github.com/webbertakken/unity-actions)
 - [Octions - GitHub Actions for GitHub REST API](https://github.com/maxkomarychev/octions)
-- [GitHub Actions for Docker](https://github.com/docker/github-actions)
 - [GitHub Actions for AWS](https://github.com/clowdhaus/aws-github-actions)
 - [Actions Hub](https://github.com/actionshub)
 
@@ -471,6 +472,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Deploy VS Code Extension to Visual Studio Marketplace or the Open VSX Registry](https://github.com/HaaLeo/publish-vscode-extension)
 - [Deploy a YouTube Video to Anchor.fm Podcast](https://github.com/Schrodinger-Hat/youtube-to-anchorfm)
 - [Deploy with AWS CodeDeploy](https://github.com/webfactory/create-aws-codedeploy-deployment)
+- [Deploy Visual Studio Extension to Visual Studio Marketplace](https://github.com/cezarypiatek/VsixPublisherAction)
 
 #### Docker
 
@@ -481,9 +483,12 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Monitor and limit your docker image size](https://github.com/wemake-services/docker-image-size-limit)
 - [Publish Docker Images to the Amazon Elastic Container Registry (ECR)](https://github.com/appleboy/docker-ecr-action)
 - [Build And Push Your Docker Images Caching Each Stage To Reduce Build Time](https://github.com/whoan/docker-build-with-cache-action)
-- [Set up Docker Buildx](https://github.com/crazy-max/ghaction-docker-buildx)
+- [Set Up Docker Buildx](https://github.com/docker/setup-buildx-action)
 - [Convert Branch or Tag Name Into Docker-Compatible Image Tag](https://github.com/ankitvgupta/ref-to-tag-action/)
 - [Update a Container Repository Description From README.md](https://github.com/marketplace/actions/update-container-description-action) - Supported Registries: Docker Hub, Quay, Harbor.
+- [Build and Push Docker Images With Buildx](https://github.com/docker/build-push-action)
+- [Login Against a Docker Registry](https://github.com/docker/login-action)
+- [Install QEMU Static Binaries](https://github.com/docker/setup-qemu-action)
 
 #### Kubernetes
 
@@ -505,6 +510,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 
 - [Generate terraform documentation](https://github.com/Dirrk/terraform-docs) - Uses terraform-docs to generate docs for terraform modules.
 - [An example of using Terraform to validate and apply GitHub administration](https://github.com/asgharlabs/github-terraform/tree/master/.github/workflows)
+- [GitHub Action for Infracost](https://github.com/infracost/actions) - See Cloud Cost Estimates for Terraform in Pull Requests.
 
 ### External Services
 
@@ -529,6 +535,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [GitHub Actions for mdBook](https://github.com/peaceiris/actions-mdbook)
 - [Setup Mint](https://github.com/fabasoad/setup-mint-action) - Setup Mint (programming language for writing single page applications).
 - [Gatsby AWS S3 Deployment](https://github.com/jonelantha/gatsby-s3-action) - Deploy Gatsby to S3 (supports CloudFront).
+- [Image Actions](https://github.com/calibreapp/image-actions) - Automatically compress JPEGs, PNGs and WebPs in Pull Requests.
 
 ### Machine Learning Ops
 
