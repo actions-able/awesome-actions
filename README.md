@@ -498,6 +498,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Deploy Lambda code to an existing function](https://github.com/appleboy/lambda-action)
 - [Sync/Invalidate Files and Send Them to AWS S3 Using s3cmd](https://github.com/ThiagoAnunciacao/s3cmd-sync-action)
 - [Deploy Static Site to AWS](https://github.com/onramper/action-deploy-aws-static-site)
+- [Invoke a Lambda Function](https://github.com/gagoar/invoke-aws-lambda)
 
 #### Terraform
 
