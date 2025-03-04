@@ -161,6 +161,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Code of Conduct Compliance Through Sentiments Analysis](https://github.com/derberg/code-of-conduct-sentiment-analysis-github-action) - Analyze sentiments in issues and PRs to identify negative content that may violate your code of conduct.
 - [GitHub Codeowners Validator](https://github.com/mszostok/codeowners-validator) - Ensures the correctness of your GitHub CODEOWNERS file. It supports public and private GitHub repositories and also GitHub Enterprise installations.
 - [Copybara Action](https://github.com/olivr/copybara-action) - Move and transform code between repositories (ideal to maintain several repos from one monorepo).
+- [Action Debug VSCode](https://github.com/fawazahmed0/action-debug-vscode) - Remote Access your GitHub Actions via Browser Based VS Code.
 
 ### Collection of Actions
 
