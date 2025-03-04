@@ -4,19 +4,26 @@
   <br>
 </p>
 
-# Awesome Actions [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [<!--lint ignore no-dead-urls-->![GitHub Actions status | sdras/awesome-actions](https://github.com/sdras/awesome-actions/workflows/Lint%20Awesome%20List/badge.svg)](https://github.com/sdras/awesome-actions/actions?workflow=Lint+Awesome+List)
+# Awesome Actions
+
+[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 
 > A curated list of awesome things related to GitHub Actions.
 
 Actions are triggered by GitHub platform events directly in a repo and run on-demand workflows either on Linux, Windows or macOS virtual machines or inside a container in response. With GitHub Actions you can automate your workflow from idea to production.
 
+<!--lint disable no-undefined-references-->
+> [!IMPORTANT]
+> This is a fork of <https://github.com/sdras/awesome-actions>, this fork will be maintained, or trying to be.
+<!--lint enable no-undefined-references-->
+
 ## Contents
 
 - [Official Resources](#official-resources)
-  - [Workflow Examples](#workflow-examples)
   - [Official Actions](#official-actions)
   - [Create your Actions](#create-your-actions)
 - [Community Resources](#community-resources)
+  - [Setup Actions](#setup-actions)
   - [GitHub Tools and Management](#github-tools-and-management)
   - [Collection of Actions](#collection-of-actions)
   - [Utility](#utility)
@@ -32,34 +39,32 @@ Actions are triggered by GitHub platform events directly in a repo and run on-de
   - [Machine Learning Ops](#machine-learning-ops)
   - [Build](#build)
   - [Database](#database)
+  - [Networking](#networking)
   - [Localization](#localization)
   - [Fun](#fun)
   - [Cheat Sheet](#cheat-sheet)
 - [Tutorials](#tutorials)
 
+<!--lint disable no-undefined-references-->
+> [!TIP]
+> Please don't hesitate to make a PR if you have more resources to share. Check out [contributing.md](contributing.md) for more information.
+<!--lint enable no-undefined-references-->
+
 ## Official Resources
 
 - [Official Site](https://github.com/features/actions)
 - [Official Documentation](https://help.github.com/en/actions)
+- [Official GitHub Blog Announcement](https://github.blog/enterprise-software/automation/action-demos/)
 - [Official Actions organization](https://github.com/actions)
-  - [actions/virtual-environments](https://github.com/actions/virtual-environments) - GitHub Actions virtual environments.
+  - [actions/virtual-environments](https://github.com/actions/runner-images) - GitHub Actions runner images.
   - [actions/runner](https://github.com/actions/runner) - The Runner for GitHub Actions.
-- [GitHub Blog Announcement](https://github.blog/2018-10-17-action-demos/)
-
-### Workflow Examples
-
-- [actions/starter-workflows](https://github.com/actions/starter-workflows) - Starter workflow management.
-- [actions/example-services](https://github.com/actions/example-services) - Example workflows using service containers.
+  - [actions/starter-workflows](https://github.com/actions/starter-workflows) - Starter workflow management.
 
 ### Official Actions
-
-<!--lint disable no-dead-urls-->
 
 #### Workflow Tool Actions
 
 Tool actions for your workflow.
-
-<!--lint ignore awesome-spell-check-->
 
 - [actions/checkout](https://github.com/actions/checkout) - Setup your repository on your workflow.
 - [actions/upload-artifact](https://github.com/actions/upload-artifact) - Upload artifacts from your workflow.
@@ -71,14 +76,12 @@ Tool actions for your workflow.
 
 Automate management for issues, pull requests, and releases.
 
-- [actions/create-release](https://github.com/actions/create-release) - An Action to create releases via the GitHub Release API.
-- [actions/upload-release-asset](https://github.com/actions/upload-release-asset) - An Action to upload a release asset via the GitHub Release API.
 - [actions/first-interaction](https://github.com/actions/first-interaction) - An action for filtering pull requests and issues from first-time contributors.
 - [actions/stale](https://github.com/actions/stale) - Marks issues and pull requests that have not had recent interaction.
 - [actions/labeler](https://github.com/actions/labeler) - An action for automatically labelling pull requests.
 - [actions/delete-package-versions](https://github.com/actions/delete-package-versions) - Delete versions of a package from GitHub Packages.
 
-#### Setup Actions
+#### Official Setup Actions
 
 Set up your GitHub Actions workflow with a specific version of your programming languages.
 
@@ -86,10 +89,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [actions/setup-python: Python](https://github.com/actions/setup-python)
 - [actions/setup-go: Go](https://github.com/actions/setup-go)
 - [actions/setup-dotnet: .NET core sdk](https://github.com/actions/setup-dotnet)
-- [actions/setup-haskell: Haskell (GHC and Cabal)](https://github.com/actions/setup-haskell)
 - [actions/setup-java: Java](https://github.com/actions/setup-java)
-- [actions/setup-ruby: Ruby](https://github.com/actions/setup-ruby)
-- [actions/setup-elixir: Elixir](https://github.com/actions/setup-elixir)
 
 ### Create your Actions
 
@@ -99,14 +99,26 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [actions/hello-world-javascript-action](https://github.com/actions/hello-world-javascript-action) - A template to demonstrate how to build a JavaScript action.
 - [actions/javascript-action](https://github.com/actions/javascript-action) - Create a JavaScript Action.
 - [actions/typescript-action](https://github.com/actions/typescript-action) - Create a TypeScript Action.
-- [actions/http-client](https://github.com/actions/http-client) - A lightweight HTTP client optimized for use with actions, TypeScript with generics and async await.
 
 #### Docker Container Actions
 
 - [actions/hello-world-docker-action](https://github.com/actions/hello-world-docker-action) - A template to demonstrate how to build a Docker action.
+- [actions/container-action](https://github.com/actions/container-action) - Bootstrap the creation of a container action.
 - [actions/container-toolkit-action](https://github.com/actions/container-toolkit-action) - Template repo for creating container actions using actions/toolkit.
 
+#### Composite Actions
+
+- [GitHub Docs: creating a composite action](https://docs.github.com/en/actions/sharing-automations/creating-actions/creating-a-composite-action)
+
 ## Community Resources
+
+### Setup Actions
+
+- [Setup Haskell](https://github.com/haskell-actions/setup) - Setting up GHC, cabal, stack on for Haskell-related CIs.
+- [Setup Haskell hlint](https://github.com/haskell-actions/hlint-setup) - Reusable GitHub Action to set up hlint in a workflow. Use with haskell-actions/hlint-run.
+- [Setup Ruby](https://github.com/ruby/setup-ruby) - Download a prebuilt Ruby and add it to the PATH in 5 seconds.
+- [Setup Elixir](https://github.com/erlef/setup-beam) - Set up your BEAM-based GitHub Actions workflow (Erlang, Elixir, Gleam, and so on).
+- [Setup Julia](https://github.com/julia-actions/setup-julia) - Sets up a Julia environment for use in actions by downloading a specified version of Julia and adding it to PATH.
 
 ### GitHub Tools and Management
 
@@ -146,6 +158,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Manage Labels on GitHub (create/rename/update/delete) as Code](https://github.com/crazy-max/ghaction-github-labeler)
 - [Continuous Distribution of Funding to your Project Contributors and Dependencies](https://github.com/protontypes/libreselery)
 - [Herald Rules for GitHub: Add Subscribers, Assignees, Labels, and More to Your PR](https://github.com/gagoar/use-herald-action)
+- [Code of Conduct Compliance Through Sentiments Analysis](https://github.com/derberg/code-of-conduct-sentiment-analysis-github-action) - Analyze sentiments in issues and PRs to identify negative content that may violate your code of conduct.
 - [GitHub Codeowners Validator](https://github.com/mszostok/codeowners-validator) - Ensures the correctness of your GitHub CODEOWNERS file. It supports public and private GitHub repositories and also GitHub Enterprise installations.
 - [Copybara Action](https://github.com/olivr/copybara-action) - Move and transform code between repositories (ideal to maintain several repos from one monorepo).
 - [Manage labels with configurable rules in Pull Requests and Issues](https://github.com/srvaroa/labeler/) - Action based on configurable rules that match on properties of Pull Requests and Issues to assign/remove labels automatically.
@@ -228,7 +241,10 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [GitHub Environment Variables Action](https://github.com/FranzDiebold/github-env-vars-action) - Expose environment variables such as the branch/tag name, repository slug, and ref slug.
 - [GitHub Action Locks](https://github.com/abatilo/github-action-locks/blob/master/README.md) - Guarantee atomic execution of your GitHub Action workflows.
 - [Paths Filter](https://github.com/dorny/paths-filter) - Conditionally run actions based on files modified by PR, feature branch or pushed commits.
-- [Minisauras](https://github.com/TeamTigers/minisauras) -  Pulls all the JavaScript and CSS files from your base branch, minify them and creates a pull-request with a new branch.
+- [Minisauras](https://github.com/TeamTigers/minisauras) - Pulls all the JavaScript and CSS files from your base branch, minify them and creates a pull-request with a new branch.
+- [Website to GIF](https://github.com/PabloLec/website-to-gif) - Turn any webpage into a GIF to display on your README, docs, etc.
+- [Interactive Inputs - Runtime workflow inputs](https://github.com/boasiHQ/interactive-inputs) - Add dynamic inputs at runtime for your GitHub Actions workflows.
+- [Draw.io Export Action](https://github.com/rlespinasse/drawio-export-action) - Recursively export Draw.io Files to multiple formats.
 
 #### Environments
 
@@ -272,6 +288,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Run performance testing with artillery.io](https://github.com/kenju/github-actions-artillery)
 - [Detect Flaky Tests with BuildPulse](https://github.com/Workshop64/buildpulse-action)
 - [Display Inline Code Annotations for Jest Tests](https://github.com/IgnusG/jest-report-action)
+- [Run Julia tests](https://github.com/julia-actions/julia-runtest)
 
 #### Linting
 
@@ -282,6 +299,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Lint terraform files using tflint, with reviewdog output on the PR](https://github.com/reviewdog/action-tflint)
 - [autopep8: Automatically formats Python code to conform to the PEP 8 style guide](https://github.com/peter-evans/autopep8)
 - [Run `ergebnis/composer-normalize` to ensure your PHP project has a normalized `composer.json`](https://github.com/ergebnis/composer-normalize-action)
+- [Run `stolt/lean-package-validator` to ensure your package has only the required `runtime` artifacts](https://github.com/raphaelstolt/lean-package-validator-action)
 - [Run Go lint checks on PR event](https://github.com/ArangoGutierrez/GoLinty-Action)
 - [Node.js - Automatically run the `format` and/or `lint` script used by the package](https://github.com/MarvinJWendt/run-node-formatter)
 - [Stylelinter - GitHub Action that runs stylelint](https://github.com/exelban/stylelint)
@@ -370,8 +388,9 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Pull Request Lint With Regex](https://github.com/MorrisonCole/pr-lint-action)
 - [Pull Request Landmines](https://github.com/tylermurry/github-pr-landmine)
 - [Annotate a GitHub Pull Request Based on a Checkstyle XML-Report](https://github.com/staabm/annotate-pull-request-from-checkstyle)
-- [Pull Request Stats](https://github.com/flowwer-dev/pull-request-stats) -  Print relevant stats about reviewers.
+- [Pull Request Stats](https://github.com/flowwer-dev/pull-request-stats) - Print relevant stats about reviewers.
 - [Pull Request Description Enforcer](https://github.com/derkinderfietsen/pr-description-enforcer) - Enforces description on pull requests.
+- [Auto-approve Pull Requests](https://github.com/omio-labs/pr-reviewer-bot) - Auto-approves PRs if they match your custom criteria.
 
 ### GitHub Pages
 
@@ -409,6 +428,8 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Send an Embed Message to Discord](https://github.com/sarisia/actions-status-discord)
 - [Keep Your PRs in Sync With Teamwork Tasks](https://github.com/Teamwork/github-sync)
 - [Send Microsoft Teams Notification](https://github.com/opsless/ms-teams-github-actions)
+- [GitHub Twittction](https://github.com/m1ner79/Github-Twittction) - Post on Twitter after different GitHub events.
+- [GitHub Action Notification for Discord, Slack, Telegram, Google Chat, Microsoft Teams](https://github.com/hunghg255/action-notifications)
 
 ### Deployment
 
@@ -426,6 +447,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Executing remote ssh commands](https://github.com/appleboy/ssh-action)
 - [Publish a Python distribution package to PyPI](https://github.com/pypa/gh-action-pypi-publish)
 - [Deploy Static Website to Azure Storage](https://github.com/feeloor/azure-static-website-deploy)
+- [Sync Git Repo to a Google Cloud Storage Bucket (as a Static Website for Example)](https://github.com/Nakilon/git-to-gcs)
 - [Cross platform Chocolatey CLI to build and publish packages](https://github.com/crazy-max/ghaction-chocolatey)
 - [Deploy iOS Pod Library to Cocoapods](https://github.com/michaelhenry/deploy-to-cocoapods-github-action)
 - [GitHub Action for TencentCloud Serverless](https://github.com/Juliiii/action-scf)
@@ -476,6 +498,9 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 
 - [Sync/upload a directory to an AWS S3 bucket](https://github.com/jakejarvis/s3-sync-action)
 - [Deploy Lambda code to an existing function](https://github.com/appleboy/lambda-action)
+- [Sync/Invalidate Files and Send Them to AWS S3 Using s3cmd](https://github.com/ThiagoAnunciacao/s3cmd-sync-action)
+- [Deploy Static Site to AWS](https://github.com/onramper/action-deploy-aws-static-site)
+- [Invoke a Lambda Function](https://github.com/gagoar/invoke-aws-lambda)
 
 #### Terraform
 
@@ -526,10 +551,15 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Setup Brainfuck](https://github.com/fabasoad/setup-brainfuck-action) - Setup brainfuck interpreter.
 - [Publish Go Binaries to GitHub Release Assets](https://github.com/wangyoucao577/go-release-action)
 - [Setup COBOL](https://github.com/fabasoad/setup-cobol-action)
+- [Check Gradle version](https://github.com/madhead/check-gradle-version) - Keep your Gradle version up to date.
 
 ### Database
 
 - [Setup Cassandra Schema](https://github.com/fabasoad/setup-cassandra-action) - Running scripts from the provided folder on top of Cassandra cluster.
+
+### Networking
+
+- [Setup ZeroTier](https://github.com/zerotier/github-action) - Connect your runner to a ZeroTier network.
 
 ### Localization
 
@@ -558,5 +588,4 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Deploying Self-Hosted GitHub Actions Runners with Docker](https://testdriven.io/blog/github-actions-docker/) - Deploy self-hosted GitHub Actions runners with Docker and Docker Swarm to DigitalOcean.
 - [Setup Auto-scaled self-hosted GitHub Actions Runners on AWS Spot-instances](https://040code.github.io/2020/05/25/scaling-selfhosted-action-runners)
 - [Getting the Gist of GitHub Actions](https://gist.github.com/br3ndonland/f9c753eb27381f97336aa21b8d932be6)
-
-> Please don't hesitate to make a PR if you have more resources to share. Check out [contributing.md](contributing.md) for more information.
+- [CI-for-Research - GitHub Self-Hosted Runner Guides](https://github.com/ci-for-research/self-hosted-runners) - Collection of guides explaining how to set up GitHub self-hosted runners on several platforms.
