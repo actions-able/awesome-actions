@@ -168,6 +168,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Automatically Close Empty Issues](https://github.com/rickstaa/empty-issues-closer-action)
 - [Manage Labels With Configurable Rules in Pull Requests and Issues](https://github.com/srvaroa/labeler/) - Action based on configurable rules that match on properties of Pull Requests and Issues to assign/remove labels automatically.
 - [GitHub Actions Access Tokens](https://github.com/qoomon/actions--access-token) - Get rid of PAT tokens, use temporary access tokens instead!
+- [Action Debug VSCode](https://github.com/fawazahmed0/action-debug-vscode) - Remote Access your GitHub Actions via Browser based VS Code.
 
 ### Collection of Actions
 
