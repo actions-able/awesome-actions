@@ -1,14 +1,21 @@
+---
 name: Lint Awesome Actions
 
 on:
   push:
     branches: [main]
   pull_request:
+  workflow_dispatch:
 
 jobs:
   build:
     name: Lint Awesome Actions
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      packages: read
+      statuses: write
 
     steps:
       - name: Checkout Code

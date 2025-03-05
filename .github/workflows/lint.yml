@@ -1,15 +1,25 @@
+---
 name: Lint Awesome List
+
 on: 
   push:
     branches:
     - main
   pull_request:
   workflow_dispatch:
+
 jobs:
   lint:
     name: Lint
     runs-on: ubuntu-latest
+    
+    permissions:
+      contents: read
+      packages: read
+      statuses: write
+
     steps:
       - uses: actions/checkout@v4
+
       - run: npx awesome-lint
         shell: bash
