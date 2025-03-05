@@ -163,6 +163,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Copybara Action](https://github.com/olivr/copybara-action) - Move and transform code between repositories (ideal to maintain several repos from one monorepo).
 - [Action Docs Action](https://github.com/npalm/action-docs-action) - Update your README based the action.yml.
 - [Issue Watcher](https://github.com/anushkrishnav/Issue-Watcher) - Monitors and Restricts the number of Issues open by a person at a time to the given limit. Prevents Issue spam.
+- [A GitHub Action That Automatically Generates & Updates Markdown Content (Like Your README.md) From External or Remote Files.](https://github.com/dineshsonachalam/markdown-autodocs)
 
 ### Collection of Actions
 
