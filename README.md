@@ -163,7 +163,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Copybara Action](https://github.com/olivr/copybara-action) - Move and transform code between repositories (ideal to maintain several repos from one monorepo).
 - [Action Docs Action](https://github.com/npalm/action-docs-action) - Update your README based the action.yml.
 - [Issue Watcher](https://github.com/anushkrishnav/Issue-Watcher) - Monitors and Restricts the number of Issues open by a person at a time to the given limit. Prevents Issue spam.
-- [A GitHub Action That Automatically Generates & Updates Markdown Content (Like Your README.md) From External or Remote Files.](https://github.com/dineshsonachalam/markdown-autodocs)
+- [A GitHub Action That Automatically Generates & Updates Markdown Content (Like Your README.md) From External or Remote Files](https://github.com/dineshsonachalam/markdown-autodocs)
 - [Changed Filenames GitHub Action](https://github.com/DawChihLiou/changed-files-action) - This action returns all the changed files in a pull request. The changed files includes added, modified, renamed, and removed files.
 - [Automatically Close Empty Issues](https://github.com/rickstaa/empty-issues-closer-action)
 
@@ -512,6 +512,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Build and Push Docker Images With Buildx](https://github.com/docker/build-push-action)
 - [Login Against a Docker Registry](https://github.com/docker/login-action)
 - [Install QEMU Static Binaries](https://github.com/docker/setup-qemu-action)
+- [Publish Docker Images in a Couple of Registers](https://github.com/ko-build/setup-ko)
 
 #### Kubernetes
 
