@@ -504,6 +504,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Deploy a YouTube Video to Anchor.fm Podcast](https://github.com/Schrodinger-Hat/youtube-to-anchorfm)
 - [Deploy with AWS CodeDeploy](https://github.com/webfactory/create-aws-codedeploy-deployment)
 - [Deploy Visual Studio Extension to Visual Studio Marketplace](https://github.com/cezarypiatek/VsixPublisherAction)
+- [Deploy Self-Hosted, Auto-Scaling GitHub Action Runners in Kubernetes, Docker, VMs and Bare Metal Environments](https://github.com/jonico/awesome-runners) - A curated list of awesome self-hosted GitHub Action runner solutions in a large comparison matrix.
 
 #### Docker
 
