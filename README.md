@@ -422,6 +422,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Pull Request Description Enforcer](https://github.com/derkinderfietsen/pr-description-enforcer) - Enforces description on pull requests.
 - [Auto-approve Pull Requests](https://github.com/omio-labs/pr-reviewer-bot) - Auto-approves PRs if they match your custom criteria.
 - [Process Your Issues and Pull Requests That Didn't Have Recent Updates](https://github.com/Sonia-corporation/stale)
+- [Mention Completed Pull Requests in Draft Release](https://github.com/dnbkr/clog)
 
 ### GitHub Pages
 
