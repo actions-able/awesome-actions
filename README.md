@@ -308,6 +308,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Display Inline Code Annotations for Jest Tests](https://github.com/IgnusG/jest-report-action)
 - [Run Julia tests](https://github.com/julia-actions/julia-runtest)
 - [Test Ansible Collections with `ansible-test`](https://github.com/ansible-community/ansible-test-gh-action)
+- [Display Report From the Test Results Directly in GitHub](https://github.com/dorny/test-reporter)
 
 #### Linting
 
