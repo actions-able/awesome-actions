@@ -78,7 +78,6 @@ Automate management for issues, pull requests, and releases.
 
 - [actions/first-interaction](https://github.com/actions/first-interaction) - An action for filtering pull requests and issues from first-time contributors.
 - [actions/stale](https://github.com/actions/stale) - Marks issues and pull requests that have not had recent interaction.
-- [Sonia-corporation/stale](https://github.com/Sonia-corporation/stale) - Process your issues and pull requests that didn't have recent updates.
 - [actions/labeler](https://github.com/actions/labeler) - An action for automatically labelling pull requests.
 - [actions/delete-package-versions](https://github.com/actions/delete-package-versions) - Delete versions of a package from GitHub Packages.
 
@@ -403,6 +402,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Pull Request Stats](https://github.com/flowwer-dev/pull-request-stats) - Print relevant stats about reviewers.
 - [Pull Request Description Enforcer](https://github.com/derkinderfietsen/pr-description-enforcer) - Enforces description on pull requests.
 - [Auto-approve Pull Requests](https://github.com/omio-labs/pr-reviewer-bot) - Auto-approves PRs if they match your custom criteria.
+- [Process Your Issues and Pull Requests That Didn’t Have Recent Updates](https://github.com/Sonia-corporation/stale)
 
 ### GitHub Pages
 
