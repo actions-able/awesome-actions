@@ -184,6 +184,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [GitHub Actions for AWS](https://github.com/clowdhaus/aws-github-actions)
 - [Actions Hub](https://github.com/actionshub)
 - [GitHub Actions for Perl](https://github.com/perl-actions)
+- [GitHub Actions by Red Hat](https://github.com/redhat-actions)
 
 ### Utility
 
