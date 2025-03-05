@@ -261,6 +261,11 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Read Java Properties](https://github.com/madhead/read-java-properties) - Read values from `.properties` files.
 - [ReDoc CLI GitHub Action](https://github.com/seeebiii/redoc-cli-github-action) - Use redoc-cli in your GitHub Action to generate OpenAPI documentation.
 - [Setup Clojure Build Tools](https://github.com/DeLaGuardo/setup-clojure) - Install specific or all major build tools for Clojure.
+- [GitHub Actions Stats for Your Profile's README](https://github.com/teoxoy/profile-readme-stats) - Showcase your GitHub stats on your profile README.md.
+- [Execute Any Script in a GitHub Issue Comment](https://github.com/nwtgck/actions-comment-run)
+- [Setup Vim/Neovim](https://github.com/rhysd/action-setup-vim) - Install Vim/Neovim for testing editor plugins.
+- [Cached LFS Checkout](https://github.com/nschloe/action-cached-lfs-checkout) - Cached checkout of LFS resources.
+- [Rerun Actions and Commands](https://github.com/Wandalen/wretry.action) - Retries a GitHub Action step or command on failure.
 
 #### Environments
 
@@ -509,6 +514,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Deploy with AWS CodeDeploy](https://github.com/webfactory/create-aws-codedeploy-deployment)
 - [Deploy Visual Studio Extension to Visual Studio Marketplace](https://github.com/cezarypiatek/VsixPublisherAction)
 - [Deploy Self-Hosted, Auto-Scaling GitHub Action Runners in Kubernetes, Docker, VMs and Bare Metal Environments](https://github.com/jonico/awesome-runners) - A curated list of awesome self-hosted GitHub Action runner solutions in a large comparison matrix.
+- [Publish a Tableau Workbooks to Tableau Server](https://github.com/jayamanikharyono/tableau-workbook-action) - An Action to easily publish your Tableau Workbook to Tableau Server upon Pull Request.
 
 #### Docker
 
@@ -598,6 +604,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Setup COBOL](https://github.com/fabasoad/setup-cobol-action)
 - [Check Gradle version](https://github.com/madhead/check-gradle-version) - Keep your Gradle version up to date.
 - [Setup Maven Action](https://github.com/s4u/setup-maven-action) - Complete environment configuration for Maven builds.
+- [Generate APK from Web Assets](https://github.com/darkshredder/web-to-app-action) - Transforms website to android application.
 
 ### Database
 
