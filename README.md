@@ -263,6 +263,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Setup Clojure Build Tools](https://github.com/DeLaGuardo/setup-clojure) - Install specific or all major build tools for Clojure.
 - [GitHub Actions Stats for Your Profile's README](https://github.com/teoxoy/profile-readme-stats) - Showcase your GitHub stats on your profile README.md.
 - [Execute Any Script in a GitHub Issue Comment](https://github.com/nwtgck/actions-comment-run)
+- [Setup Vim/Neovim](https://github.com/rhysd/action-setup-vim) - Install Vim/Neovim for testing editor plugins.
 
 #### Environments
 
