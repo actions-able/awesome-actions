@@ -88,7 +88,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [actions/setup-node: Node.js](https://github.com/actions/setup-node)
 - [actions/setup-python: Python](https://github.com/actions/setup-python)
 - [actions/setup-go: Go](https://github.com/actions/setup-go)
-- [actions/setup-dotnet: .NET core sdk](https://github.com/actions/setup-dotnet)
+- [actions/setup-dotnet: .NET Core SDK](https://github.com/actions/setup-dotnet)
 - [actions/setup-java: Java](https://github.com/actions/setup-java)
 
 ### Create your Actions
