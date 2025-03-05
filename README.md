@@ -342,6 +342,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Super Linter](https://github.com/github/super-linter)
 - [Check GoImport Errors With Files and Folders Filter Options](https://github.com/DarthBenro008/goimports-check-action)
 - [Check your code with diKTat](https://github.com/saveourtool/benedikt) - Run `saveourtool/diktat` to lint your Kotlin code, with SARIF output on the Pull-Request.
+- [Install and Run a Syntax-Aware Linter for Prose](https://github.com/errata-ai/vale-action)
 
 #### Security
 
