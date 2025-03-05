@@ -252,6 +252,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Interactive Inputs - Runtime workflow inputs](https://github.com/boasiHQ/interactive-inputs) - Add dynamic inputs at runtime for your GitHub Actions workflows.
 - [Draw.io Export Action](https://github.com/rlespinasse/drawio-export-action) - Recursively export Draw.io Files to multiple formats.
 - [Paste Secret](https://github.com/bariscanyilmaz/paste-secret) - Paste your GitHub Secrets to files.
+- [Label and Display the Top-Upvoted Issues and Pull Requests](https://github.com/rickstaa/top-issues-action)
 
 #### Environments
 
