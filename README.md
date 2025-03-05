@@ -606,6 +606,8 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Find and automatically fix typos and grammar issues in your code](https://github.com/sobolevn/misspell-fixer-action)
 - [Translation](https://github.com/fabasoad/translation-action) - Translate text from any language to any language.
 - [Issues Translate Action](https://github.com/usthe/issues-translate-action) - The action for translating Non-English issues content to English.
+- [Localazy Upload Docker Action](https://github.com/localazy/upload) - Upload localizable files to the Localazy translation management platform.
+- [Localazy Download Docker Action](https://github.com/localazy/download) - Download localizable files from the Localazy translation management platform.
 
 ### Fun
 
