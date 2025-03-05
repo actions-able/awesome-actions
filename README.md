@@ -187,6 +187,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [GitHub Actions for Perl](https://github.com/perl-actions)
 - [GitHub Actions by Red Hat](https://github.com/redhat-actions)
 - [GitHub Actions for Common Lisp](https://40ants.com/ci/)
+- [GitHub Actions for Ballerina](https://github.com/ballerina-platform/ballerina-action)
 
 ### Utility
 
