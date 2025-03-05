@@ -142,7 +142,6 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Use private actions in any workflow](https://github.com/InVisionApp/private-action-loader)
 - [Label Your Issues Using the Issue's Contents](https://github.com/damccorm/tag-ur-it)
 - [Rollback a GitHub Release](https://github.com/author/action-rollback)
-- [Automatically close empty issues](https://github.com/rickstaa/empty-issues-closer-action)
 - [Lock Closed Issues and Pull Requests after a Period of Inactivity](https://github.com/dessant/lock-threads)
 - [Get Commit Difference Count Between Two Branches](https://github.com/jessicalostinspace/commit-difference-action)
 - [Generate Release Notes Based on Git References](https://github.com/metcalfc/changelog-generator)
@@ -166,6 +165,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Issue Watcher](https://github.com/anushkrishnav/Issue-Watcher) - Monitors and Restricts the number of Issues open by a person at a time to the given limit. Prevents Issue spam.
 - [A GitHub Action That Automatically Generates & Updates Markdown Content (Like Your README.md) From External or Remote Files.](https://github.com/dineshsonachalam/markdown-autodocs)
 - [Changed Filenames GitHub Action](https://github.com/DawChihLiou/changed-files-action) - This action returns all the changed files in a pull request. The changed files includes added, modified, renamed, and removed files.
+- [Automatically Close Empty Issues](https://github.com/rickstaa/empty-issues-closer-action)
 
 ### Collection of Actions
 
