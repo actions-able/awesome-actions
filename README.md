@@ -165,6 +165,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Issue Watcher](https://github.com/anushkrishnav/Issue-Watcher) - Monitors and Restricts the number of Issues open by a person at a time to the given limit. Prevents Issue spam.
 - [A GitHub Action That Automatically Generates & Updates Markdown Content (Like Your README.md) From External or Remote Files.](https://github.com/dineshsonachalam/markdown-autodocs)
 - [Changed Filenames GitHub Action](https://github.com/DawChihLiou/changed-files-action) - This action returns all the changed files in a pull request. The changed files includes added, modified, renamed, and removed files.
+- [Automatically Close Empty Issues](https://github.com/rickstaa/empty-issues-closer-action)
 
 ### Collection of Actions
 
