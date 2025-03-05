@@ -604,6 +604,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Setup COBOL](https://github.com/fabasoad/setup-cobol-action)
 - [Check Gradle version](https://github.com/madhead/check-gradle-version) - Keep your Gradle version up to date.
 - [Setup Maven Action](https://github.com/s4u/setup-maven-action) - Complete environment configuration for Maven builds.
+- [Generate APK from Web Assets](https://github.com/darkshredder/web-to-app-action) - Transforms website to android application.
 
 ### Database
 
