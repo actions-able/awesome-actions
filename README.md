@@ -355,6 +355,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Publishing code coverage to CodeClimate](https://github.com/paambaati/codeclimate-action)
 - [Update repository go report card](https://github.com/creekorful/goreportcard-action)
 - [Post Your Cobertura Report as a PR Comment](https://github.com/5monkeys/cobertura-action)
+- [Pull Request Coverage Checks and Coverage Badges from JaCoCo Coverage Reports](https://github.com/cicirello/jacoco-badge-generator)
 
 ### Dynamic Analysis
 
