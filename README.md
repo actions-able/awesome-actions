@@ -349,6 +349,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [SecretHub](https://github.com/secrethub/actions) - Have a single source of truth for your secrets and load them into GitHub Actions on demand.
 - [Automatically Approve and Merge Npm Dependency Updates (Provider Agnostic)](https://github.com/tjenkinson/gh-action-auto-merge-dependency-updates)
 - [GitGuardian Shield Against Exposed Credentials in Your Commits](https://github.com/GitGuardian/ggshield-action)
+- [Harden Runner](https://github.com/step-security/harden-runner) - Security agent for the GitHub-hosted runner to monitor the build process and prevent exfiltration of credentials.
 
 #### Code Coverage
 
