@@ -1,17 +1,32 @@
+---
 name: Lint Awesome List
-on: 
+
+on:
   push:
     branches:
-    - main
+      - main
   pull_request:
   workflow_dispatch:
+
+permissions: read-all
+
 jobs:
   lint:
     name: Lint
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      packages: read
+      statuses: write
+
     steps:
       - uses: actions/checkout@v4
+<<<<<<< HEAD
         with:
           fetch-depth: 0
+=======
+
+>>>>>>> 6760a9f (Add GitHub Super Linter (#20))
       - run: npx awesome-lint
         shell: bash
