@@ -164,6 +164,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Action Docs Action](https://github.com/npalm/action-docs-action) - Update your README based the action.yml.
 - [Issue Watcher](https://github.com/anushkrishnav/Issue-Watcher) - Monitors and Restricts the number of Issues open by a person at a time to the given limit. Prevents Issue spam.
 - [A GitHub Action That Automatically Generates & Updates Markdown Content (Like Your README.md) From External or Remote Files.](https://github.com/dineshsonachalam/markdown-autodocs)
+- [Changed Filenames GitHub Action](https://github.com/DawChihLiou/changed-files-action) - This action returns all the changed files in a pull request. The changed files includes added, modified, renamed, and removed files.
 
 ### Collection of Actions
 
@@ -282,6 +283,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [GraphQL Inspector Action](https://github.com/kamilkisiela/graphql-inspector)
 - [PowerShell static analysis with PSScriptAnalyzer](https://github.com/devblackops/github-action-psscriptanalyzer)
 - [Run tfsec, with reviewdog output on the PR](https://github.com/reviewdog/action-tfsec)
+- [Run static code analysis using JetBrains Qodana](https://github.com/jetbrains/qodana-action) - Scan your Go, Java, Kotlin, PHP, Python, JavaScript, TypeScript, .NET projects.
 
 #### Testing
 
@@ -403,6 +405,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Pull Request Stats](https://github.com/flowwer-dev/pull-request-stats) - Print relevant stats about reviewers.
 - [Pull Request Description Enforcer](https://github.com/derkinderfietsen/pr-description-enforcer) - Enforces description on pull requests.
 - [Auto-approve Pull Requests](https://github.com/omio-labs/pr-reviewer-bot) - Auto-approves PRs if they match your custom criteria.
+- [Process Your Issues and Pull Requests That Didn't Have Recent Updates](https://github.com/Sonia-corporation/stale)
 
 ### GitHub Pages
 
@@ -509,6 +512,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Get Kubeconfig File From Google Kubernetes Engine (GKE)](https://github.com/machine-learning-apps/gke-kubeconfig)
 - [Kustomize Kubernetes Config YAMLs](https://github.com/karancode/kustomize-github-action)
 - [Create a Kubernetes Cluster for Testing Using Krucible](https://github.com/Krucible/krucible-github-action)
+- [Create a K3s Clusters for Testing Using k3d](https://github.com/AbsaOSS/k3d-action)
 
 #### AWS
 
@@ -523,6 +527,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Generate terraform documentation](https://github.com/Dirrk/terraform-docs) - Uses terraform-docs to generate docs for terraform modules.
 - [An example of using Terraform to validate and apply GitHub administration](https://github.com/asgharlabs/github-terraform/tree/master/.github/workflows)
 - [GitHub Action for Infracost](https://github.com/infracost/actions) - See Cloud Cost Estimates for Terraform in Pull Requests.
+- [Saves the Terraform State File in an Azure Storage Account](https://github.com/ahmedig/terraform-azurerm-backend) - A GitHub Action that helps in using terraform with an Azure backend.
 
 ### External Services
 
