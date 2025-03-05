@@ -183,7 +183,6 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [GitHub Actions for Unity](https://github.com/webbertakken/unity-actions)
 - [Octions - GitHub Actions for GitHub REST API](https://github.com/maxkomarychev/octions)
 - [GitHub Actions for AWS](https://github.com/clowdhaus/aws-github-actions)
-- [GitHub Actions for AzureRm](https://github.com/ahmedig/terraform-azurerm-backend)
 - [Actions Hub](https://github.com/actionshub)
 - [GitHub Actions for Perl](https://github.com/perl-actions)
 - [GitHub Actions by Red Hat](https://github.com/redhat-actions)
@@ -523,6 +522,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Generate terraform documentation](https://github.com/Dirrk/terraform-docs) - Uses terraform-docs to generate docs for terraform modules.
 - [An example of using Terraform to validate and apply GitHub administration](https://github.com/asgharlabs/github-terraform/tree/master/.github/workflows)
 - [GitHub Action for Infracost](https://github.com/infracost/actions) - See Cloud Cost Estimates for Terraform in Pull Requests.
+- [Saves the Terraform State File in an Azure Storage Account](https://github.com/ahmedig/terraform-azurerm-backend) - A GitHub Action that helps in using terraform with an Azure backend.
 
 ### External Services
 
