@@ -165,6 +165,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Issue Watcher](https://github.com/anushkrishnav/Issue-Watcher) - Monitors and Restricts the number of Issues open by a person at a time to the given limit. Prevents Issue spam.
 - [A GitHub Action That Automatically Generates & Updates Markdown Content (Like Your README.md) From External or Remote Files.](https://github.com/dineshsonachalam/markdown-autodocs)
 - [Changed Filenames GitHub Action](https://github.com/DawChihLiou/changed-files-action) - This action returns all the changed files in a pull request. The changed files includes added, modified, renamed, and removed files.
+- [Automatically Close Empty Issues](https://github.com/rickstaa/empty-issues-closer-action)
 
 ### Collection of Actions
 
@@ -252,6 +253,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Interactive Inputs - Runtime workflow inputs](https://github.com/boasiHQ/interactive-inputs) - Add dynamic inputs at runtime for your GitHub Actions workflows.
 - [Draw.io Export Action](https://github.com/rlespinasse/drawio-export-action) - Recursively export Draw.io Files to multiple formats.
 - [Paste Secret](https://github.com/bariscanyilmaz/paste-secret) - Paste your GitHub Secrets to files.
+- [Label and Display the Top-Upvoted Issues and Pull Requests](https://github.com/rickstaa/top-issues-action)
 
 #### Environments
 
@@ -356,6 +358,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Publishing code coverage to CodeClimate](https://github.com/paambaati/codeclimate-action)
 - [Update repository go report card](https://github.com/creekorful/goreportcard-action)
 - [Post Your Cobertura Report as a PR Comment](https://github.com/5monkeys/cobertura-action)
+- [Pull Request Coverage Checks and Coverage Badges from JaCoCo Coverage Reports](https://github.com/cicirello/jacoco-badge-generator)
 
 ### Dynamic Analysis
 
@@ -370,6 +373,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Continuous Benchmarking and Benchmark Visualization for Go](https://github.com/bobheadxi/gobenchdata)
 - [Size Limit Action](https://github.com/andresz1/size-limit-action) - Comments cost comparison of your JS in PRs and rejects them if limit is exceeded.
 - [Check bundlephobia](https://github.com/carlesnunez/check-my-bundlephobia) - Comments new and modified package size according to bundlephobia.io website and rejects PR on threshold surpassed.
+- [Workflow Telemetry Action](https://github.com/runforesight/workflow-telemetry-action) - Tracks and monitors the resource metrics and process activities of your GitHub Action workflow runs. 
 
 ### Pull Requests
 
