@@ -254,6 +254,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Draw.io Export Action](https://github.com/rlespinasse/drawio-export-action) - Recursively export Draw.io Files to multiple formats.
 - [Paste Secret](https://github.com/bariscanyilmaz/paste-secret) - Paste your GitHub Secrets to files.
 - [Label and Display the Top-Upvoted Issues and Pull Requests](https://github.com/rickstaa/top-issues-action)
+- [Provide a unified check for whether the dependency jobs are all green](https://github.com/re-actors/alls-green) - This allows to have just one check added to the branch protection for a workflow.
 - [Read Java Properties](https://github.com/madhead/read-java-properties) - Read values from `.properties` files.
 
 #### Environments
@@ -302,6 +303,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Detect Flaky Tests with BuildPulse](https://github.com/Workshop64/buildpulse-action)
 - [Display Inline Code Annotations for Jest Tests](https://github.com/IgnusG/jest-report-action)
 - [Run Julia tests](https://github.com/julia-actions/julia-runtest)
+- [Test Ansible Collections with `ansible-test`](https://github.com/ansible-community/ansible-test-gh-action)
 
 #### Linting
 
