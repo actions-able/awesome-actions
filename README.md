@@ -338,6 +338,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Validate Fastlane Supply Metadata Against the Play Store Guidelines](https://github.com/ashutoshgngwr/validate-fastlane-supply-metadata)
 - [Run Golint to lint your Golang code](https://github.com/Jerome1337/golint-action)
 - [Super Linter](https://github.com/github/super-linter)
+- [Check GoImport Errors With Files and Folders Filter Options](https://github.com/DarthBenro008/goimports-check-action)
 
 #### Security
 
