@@ -1,11 +1,17 @@
 name: Lint Awesome List
-on: [push, pull_request]
+on: 
+  push:
+    branches:
+    - main
+  pull_request:
+  workflow_dispatch:
 jobs:
   lint:
     name: Lint
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
       - run: npx awesome-lint
+        shell: bash
