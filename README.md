@@ -259,6 +259,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Label and Display the Top-Upvoted Issues and Pull Requests](https://github.com/rickstaa/top-issues-action)
 - [Provide a unified check for whether the dependency jobs are all green](https://github.com/re-actors/alls-green) - This allows to have just one check added to the branch protection for a workflow.
 - [Read Java Properties](https://github.com/madhead/read-java-properties) - Read values from `.properties` files.
+- [ReDoc CLI GitHub Action](https://github.com/seeebiii/redoc-cli-github-action) - Use redoc-cli in your GitHub Action to generate OpenAPI documentation.
 
 #### Environments
 
