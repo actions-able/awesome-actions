@@ -265,6 +265,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Execute Any Script in a GitHub Issue Comment](https://github.com/nwtgck/actions-comment-run)
 - [Setup Vim/Neovim](https://github.com/rhysd/action-setup-vim) - Install Vim/Neovim for testing editor plugins.
 - [Cached LFS Checkout](https://github.com/nschloe/action-cached-lfs-checkout) - Cached checkout of LFS resources.
+- [Rerun Actions and Commands](https://github.com/Wandalen/wretry.action) - Retries a GitHub Action step or command on failure.
 
 #### Environments
 
