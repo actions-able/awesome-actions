@@ -514,7 +514,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Deploy with AWS CodeDeploy](https://github.com/webfactory/create-aws-codedeploy-deployment)
 - [Deploy Visual Studio Extension to Visual Studio Marketplace](https://github.com/cezarypiatek/VsixPublisherAction)
 - [Deploy Self-Hosted, Auto-Scaling GitHub Action Runners in Kubernetes, Docker, VMs and Bare Metal Environments](https://github.com/jonico/awesome-runners) - A curated list of awesome self-hosted GitHub Action runner solutions in a large comparison matrix.
-- [Publish a Tableau Workbooks to Tableau Server](https://github.com/jayamanikharyono/tableau-workbook-action) - An Action to easily publish your Tableau Workbook to Tableau Server upon Pull Request
+- [Publish a Tableau Workbooks to Tableau Server](https://github.com/jayamanikharyono/tableau-workbook-action) - An Action to easily publish your Tableau Workbook to Tableau Server upon Pull Request.
 
 #### Docker
 
