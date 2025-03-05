@@ -470,6 +470,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [GitHub Twittction](https://github.com/m1ner79/Github-Twittction) - Post on Twitter after different GitHub events.
 - [GitHub Action Notification for Discord, Slack, Telegram, Google Chat, Microsoft Teams](https://github.com/hunghg255/action-notifications)
 - [Notify New Pull Requests to Google Chats Room](https://github.com/ipacheco-uy/actions-chat) - Notify a Google Chats Room when a Pull-Request has been created with a nice card.
+- [Barklarm](https://github.com/kanekotic/barklarm) - Radiator that shows the status of your projects build as an item in the tray menu bar.
 
 ### Deployment
 
