@@ -340,6 +340,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Run Golint to lint your Golang code](https://github.com/Jerome1337/golint-action)
 - [Super Linter](https://github.com/github/super-linter)
 - [Check GoImport Errors With Files and Folders Filter Options](https://github.com/DarthBenro008/goimports-check-action)
+- [Check your code with diKTat](https://github.com/saveourtool/benedikt) - Run `saveourtool/diktat` to lint your Kotlin code, with SARIF output on the Pull-Request.
 
 #### Security
 
