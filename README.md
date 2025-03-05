@@ -88,7 +88,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [actions/setup-node: Node.js](https://github.com/actions/setup-node)
 - [actions/setup-python: Python](https://github.com/actions/setup-python)
 - [actions/setup-go: Go](https://github.com/actions/setup-go)
-- [actions/setup-dotnet: .NET core sdk](https://github.com/actions/setup-dotnet)
+- [actions/setup-dotnet: .NET Core SDK](https://github.com/actions/setup-dotnet)
 - [actions/setup-java: Java](https://github.com/actions/setup-java)
 
 ### Create your Actions
@@ -260,6 +260,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Provide a unified check for whether the dependency jobs are all green](https://github.com/re-actors/alls-green) - This allows to have just one check added to the branch protection for a workflow.
 - [Read Java Properties](https://github.com/madhead/read-java-properties) - Read values from `.properties` files.
 - [ReDoc CLI GitHub Action](https://github.com/seeebiii/redoc-cli-github-action) - Use redoc-cli in your GitHub Action to generate OpenAPI documentation.
+- [Setup Clojure Build Tools](https://github.com/DeLaGuardo/setup-clojure) - Install specific or all major build tools for Clojure.
 
 #### Environments
 
@@ -308,6 +309,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Display Inline Code Annotations for Jest Tests](https://github.com/IgnusG/jest-report-action)
 - [Run Julia tests](https://github.com/julia-actions/julia-runtest)
 - [Test Ansible Collections with `ansible-test`](https://github.com/ansible-community/ansible-test-gh-action)
+- [Display Report From the Test Results Directly in GitHub](https://github.com/dorny/test-reporter)
 
 #### Linting
 
@@ -422,6 +424,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Pull Request Description Enforcer](https://github.com/derkinderfietsen/pr-description-enforcer) - Enforces description on pull requests.
 - [Auto-approve Pull Requests](https://github.com/omio-labs/pr-reviewer-bot) - Auto-approves PRs if they match your custom criteria.
 - [Process Your Issues and Pull Requests That Didn't Have Recent Updates](https://github.com/Sonia-corporation/stale)
+- [Mention Completed Pull Requests in Draft Release](https://github.com/dnbkr/clog)
 
 ### GitHub Pages
 
@@ -461,6 +464,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Send Microsoft Teams Notification](https://github.com/opsless/ms-teams-github-actions)
 - [GitHub Twittction](https://github.com/m1ner79/Github-Twittction) - Post on Twitter after different GitHub events.
 - [GitHub Action Notification for Discord, Slack, Telegram, Google Chat, Microsoft Teams](https://github.com/hunghg255/action-notifications)
+- [Notify New Pull Requests to Google Chats Room](https://github.com/ipacheco-uy/actions-chat) - Notify a Google Chats Room when a Pull-Request has been created with a nice card.
 
 ### Deployment
 
@@ -593,6 +597,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Publish Go Binaries to GitHub Release Assets](https://github.com/wangyoucao577/go-release-action)
 - [Setup COBOL](https://github.com/fabasoad/setup-cobol-action)
 - [Check Gradle version](https://github.com/madhead/check-gradle-version) - Keep your Gradle version up to date.
+- [Setup Maven Action](https://github.com/s4u/setup-maven-action) - Complete environment configuration for Maven builds.
 
 ### Database
 
@@ -633,4 +638,4 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Deploying Self-Hosted GitHub Actions Runners with Docker](https://testdriven.io/blog/github-actions-docker/) - Deploy self-hosted GitHub Actions runners with Docker and Docker Swarm to DigitalOcean.
 - [Setup Auto-scaled self-hosted GitHub Actions Runners on AWS Spot-instances](https://040code.github.io/2020/05/25/scaling-selfhosted-action-runners)
 - [Getting the Gist of GitHub Actions](https://gist.github.com/br3ndonland/f9c753eb27381f97336aa21b8d932be6)
-- [CI-for-Research - GitHub Self-Hosted Runner Guides](https://github.com/ci-for-research/self-hosted-runners) - Collection of guides explaining how to set up GitHub self-hosted runners on several platforms.
+- [Building GitHub Actions](https://actionsbook.com/)
