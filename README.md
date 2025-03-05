@@ -261,7 +261,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Read Java Properties](https://github.com/madhead/read-java-properties) - Read values from `.properties` files.
 - [ReDoc CLI GitHub Action](https://github.com/seeebiii/redoc-cli-github-action) - Use redoc-cli in your GitHub Action to generate OpenAPI documentation.
 - [Setup Clojure Build Tools](https://github.com/DeLaGuardo/setup-clojure) - Install specific or all major build tools for Clojure.
-- [GitHub Actions Stats for Your Profile’s README](https://github.com/teoxoy/profile-readme-stats) - Showcase your GitHub stats on your profile README.md.
+- [GitHub Actions Stats for Your Profile's README](https://github.com/teoxoy/profile-readme-stats) - Showcase your GitHub stats on your profile README.md.
 - [Execute Any Script in a GitHub Issue Comment](https://github.com/nwtgck/actions-comment-run)
 
 #### Environments
