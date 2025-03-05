@@ -204,7 +204,6 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Run your job on another architecture: arm32, aarch64 and others](https://github.com/uraimo/run-on-arch-action)
 - [Generate a table of contents](https://github.com/technote-space/toc-generator)
 - [Automatically add Label or Assignee to an Issue](https://github.com/Naturalclar/issue-action)
-- [Label and display the top-upvoted issues and pull requests](https://github.com/rickstaa/top-issues-action)
 - [Action to send LGTM reaction as image or GIF when we say lgtm](https://github.com/micnncim/action-lgtm-reaction)
 - [Generate build numbers across multiple scopes](https://github.com/zyborg/gh-action-buildnum)
 - [Publish GitHub release artifacts](https://github.com/skx/github-action-publish-binaries)
@@ -253,6 +252,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Interactive Inputs - Runtime workflow inputs](https://github.com/boasiHQ/interactive-inputs) - Add dynamic inputs at runtime for your GitHub Actions workflows.
 - [Draw.io Export Action](https://github.com/rlespinasse/drawio-export-action) - Recursively export Draw.io Files to multiple formats.
 - [Paste Secret](https://github.com/bariscanyilmaz/paste-secret) - Paste your GitHub Secrets to files.
+- [Label and Display the Top-Upvoted Issues and Pull Requests](https://github.com/rickstaa/top-issues-action)
 
 #### Environments
 
