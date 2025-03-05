@@ -597,6 +597,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Publish Go Binaries to GitHub Release Assets](https://github.com/wangyoucao577/go-release-action)
 - [Setup COBOL](https://github.com/fabasoad/setup-cobol-action)
 - [Check Gradle version](https://github.com/madhead/check-gradle-version) - Keep your Gradle version up to date.
+- [Setup Maven Action](https://github.com/s4u/setup-maven-action) - Complete environment configuration for Maven builds.
 
 ### Database
 
