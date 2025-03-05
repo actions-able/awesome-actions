@@ -213,7 +213,6 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Build Slate documentation](https://github.com/Decathlon/slate-builder-action)
 - [Read Properties](https://github.com/christian-draeger/read-properties) - Read values from `.properties` files.
 - [Write Properties](https://github.com/christian-draeger/write-properties) - Write values to `.properties` files.
-- [Yet another properties parser](https://github.com/madhead/read-java-properties) - Read values from `.properties` files.
 - [Autotag](https://github.com/butlerlogic/action-autotag) - Automatically generate a new tag when the manifest file (i.e. `package.json`) version changes.
 - [Apply templates with Jinja2](https://github.com/cuchi/jinja2-action) - Use the Jinja2 template engine to generate files from templates.
 - [Has Changes](https://github.com/UnicornGlobal/has-changes-action) - Check if there are code changes from previous steps.
@@ -245,6 +244,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Website to GIF](https://github.com/PabloLec/website-to-gif) - Turn any webpage into a GIF to display on your README, docs, etc.
 - [Interactive Inputs - Runtime workflow inputs](https://github.com/boasiHQ/interactive-inputs) - Add dynamic inputs at runtime for your GitHub Actions workflows.
 - [Draw.io Export Action](https://github.com/rlespinasse/drawio-export-action) - Recursively export Draw.io Files to multiple formats.
+- [Read Java Properties](https://github.com/madhead/read-java-properties) - Read values from `.properties` files.
 
 #### Environments
 
