@@ -400,8 +400,6 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Run Lighthouse in CI using GitHub Actions](https://github.com/treosh/lighthouse-ci-action)
 - [Continuous Benchmarking and Benchmark Visualization for Go](https://github.com/bobheadxi/gobenchdata)
 - [Size Limit Action](https://github.com/andresz1/size-limit-action) - Comments cost comparison of your JS in PRs and rejects them if limit is exceeded.
-- [Check bundlephobia](https://github.com/carlesnunez/check-my-bundlephobia) - Comments new and modified package size according to bundlephobia.io website and rejects PR on threshold surpassed.
-- [Workflow Telemetry Action](https://github.com/runforesight/workflow-telemetry-action) - Tracks and monitors the resource metrics and process activities of your GitHub Action workflow runs. 
 - [Check bundlephobia](https://github.com/carlesnunez/check-my-bundlephobia) - Comments new and modified package size according to bundlephobia.io site and rejects PR on threshold surpassed.
 - [Workflow Telemetry Action](https://github.com/runforesight/workflow-telemetry-action) - Tracks and monitors the resource metrics and process activities of your GitHub Action workflow runs.
 - [Test URLs in Markdown Files and Open Issues for Problems](https://github.com/caltechlibrary/baler)
