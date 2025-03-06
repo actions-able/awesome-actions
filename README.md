@@ -113,11 +113,6 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 
 - [GitHub Docs: creating a composite action](https://docs.github.com/en/actions/sharing-automations/creating-actions/creating-a-composite-action)
 
-#### Runners
-
-- [Adding self-hosted runners](https://help.github.com/en/actions/hosting-your-own-runners/adding-self-hosted-runners)
-- [Systemd - Configuring self-hosted runner service](https://help.github.com/en/actions/hosting-your-own-runners/configuring-the-self-hosted-runner-application-as-a-service)
-
 ## Community Resources
 
 ### Setup Actions
@@ -662,3 +657,5 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Setup Auto-scaled self-hosted GitHub Actions Runners on AWS Spot-instances](https://040code.github.io/2020/05/25/scaling-selfhosted-action-runners)
 - [Getting the Gist of GitHub Actions](https://gist.github.com/br3ndonland/f9c753eb27381f97336aa21b8d932be6)
 - [Building GitHub Actions](https://actionsbook.com/)
+- [Adding self-hosted runners](https://help.github.com/en/actions/hosting-your-own-runners/adding-self-hosted-runners)
+- [Systemd - Configuring self-hosted runner service](https://help.github.com/en/actions/hosting-your-own-runners/configuring-the-self-hosted-runner-application-as-a-service)
