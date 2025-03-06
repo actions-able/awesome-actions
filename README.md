@@ -308,6 +308,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [PowerShell static analysis with PSScriptAnalyzer](https://github.com/devblackops/github-action-psscriptanalyzer)
 - [Run tfsec, with reviewdog output on the PR](https://github.com/reviewdog/action-tfsec)
 - [Run static code analysis using JetBrains Qodana](https://github.com/jetbrains/qodana-action) - Scan your Go, Java, Kotlin, PHP, Python, JavaScript, TypeScript, .NET projects.
+- [Checkov Static Analysis](https://github.com/bridgecrewio/checkov-action) - runs Checkov against infrastructure-as-code, open source packages, container images, and CI/CD configurations to identify misconfigurations, vulnerabilities, and license compliance issues.
 
 #### Testing
 
@@ -377,7 +378,6 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Automatically Approve and Merge npm Dependency Updates (Provider Agnostic)](https://github.com/tjenkinson/gh-action-auto-merge-dependency-updates)
 - [GitGuardian Shield Against Exposed Credentials in Your Commits](https://github.com/GitGuardian/ggshield-action)
 - [Harden Runner](https://github.com/step-security/harden-runner) - Security agent for the GitHub-hosted runner to monitor the build process and prevent exfiltration of credentials.
-- [Checkov Static Analysis for Infrastructure as Code](https://github.com/bridgecrewio/checkov)
 
 #### Code Coverage
 
