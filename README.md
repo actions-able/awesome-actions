@@ -569,6 +569,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Invoke a Lambda Function](https://github.com/gagoar/invoke-aws-lambda)
 - [Deploy a Helm Chart to the EKS](https://github.com/peymanmortazavi/eks-helm-deploy)
 - [CloudFront Invalidator](https://github.com/foxdalas/cloudfront-invalidator) - Invalidates the CloudFront cache for specified paths by finding the CloudFront distribution based on tags.
+- [Interacting With AWS CDK](https://github.com/ScottBrenner/aws-cdk-action) - Enables arbitrary actions for interacting with the AWS Cloud Development Kit via the `cdk` command.
 
 #### Terraform
 
