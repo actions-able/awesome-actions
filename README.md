@@ -640,6 +640,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 ### Runners
 
 - [On-Demand Self-Hosted AWS EC2 Runner](https://github.com/machulav/ec2-github-runner)
+- [GitHub Actions Self-Hosted Runners Provisioning](https://github.com/samber/github-actions-runner)
 
 ### Cheat Sheet
 
@@ -661,3 +662,5 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Getting the Gist of GitHub Actions](https://gist.github.com/br3ndonland/f9c753eb27381f97336aa21b8d932be6)
 - [Building GitHub Actions](https://actionsbook.com/)
 - [Docker-Based GitHub Actions in Orphan Branches](https://madhead.me/posts/orphan-action)
+- [Adding Self-Hosted Runners](https://help.github.com/en/actions/hosting-your-own-runners/adding-self-hosted-runners)
+- [Configuring the Self-Hosted Runner Application as a Service](https://help.github.com/en/actions/hosting-your-own-runners/configuring-the-self-hosted-runner-application-as-a-service)
