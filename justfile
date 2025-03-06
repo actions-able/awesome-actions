@@ -23,15 +23,21 @@ configure-fork:
 configure-textlint:
     npm install textlint -g
     npm install textlint-rule-terminology -g
+    npm install textlint-rule-title-case -g
 
 # Give feedback on contribution
 [group('Contribution')]
-feedback: awesome-lint textlint
+feedback: awesome-lint textlint textlint-titlecase
 
-# Run textlint
+# Run textlint for terminology
 [group('Contribution')]
 textlint:
     textlint -c .github/linters/.textlintrc *
+
+# Run textlint for title case
+[group('Contribution')]
+textlint-titlecase:
+    textlint -c .github/linters/.textlintrc.titlecase *
 
 # Run awesome-lint
 [group('Contribution')]

@@ -1,5 +1,5 @@
 ---
-name: Lint Awesome List
+name: Lint content only
 
 on:
   push:
@@ -25,5 +25,11 @@ jobs:
 
       - uses: taiki-e/install-action@just
 
+      - run: just configure
+        shell: bash
+
       - run: just awesome-lint
+        shell: bash
+
+      - run: just textlint-titlecase
         shell: bash

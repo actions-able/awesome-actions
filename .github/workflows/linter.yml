@@ -1,5 +1,5 @@
 ---
-name: Lint Awesome Actions
+name: Lint repository
 
 on:
   push:
