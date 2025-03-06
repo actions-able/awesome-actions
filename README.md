@@ -564,7 +564,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Deploy Static Site to AWS](https://github.com/onramper/action-deploy-aws-static-site)
 - [Invoke a Lambda Function](https://github.com/gagoar/invoke-aws-lambda)
 - [Deploy a Helm Chart to the EKS](https://github.com/peymanmortazavi/eks-helm-deploy)
-- [CloudFront Invalidator](https://github.com/er5bus/cloudfront-invalidator-action) - Invalidates a CloudFront distribution by its origin and alias.
+- [CloudFront Invalidator](https://github.com/foxdalas/cloudfront-invalidator) - Invalidates the CloudFront cache for specified paths by finding the CloudFront distribution based on tags.
 
 #### Terraform
 
