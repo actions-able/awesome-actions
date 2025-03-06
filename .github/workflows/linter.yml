@@ -11,7 +11,7 @@ permissions: read-all
 
 jobs:
   build:
-    name: Lint Awesome Actions
+    name: Lint
     runs-on: ubuntu-latest
 
     permissions:
