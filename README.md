@@ -121,6 +121,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Setup Ruby](https://github.com/ruby/setup-ruby) - Download a prebuilt Ruby and add it to the PATH in 5 seconds.
 - [Setup Elixir](https://github.com/erlef/setup-beam) - Set up your BEAM-based GitHub Actions workflow (Erlang, Elixir, Gleam, and so on).
 - [Setup Julia](https://github.com/julia-actions/setup-julia) - Sets up a Julia environment for use in actions by downloading a specified version of Julia and adding it to PATH.
+- [Setup OCaml](https://github.com/ocaml/setup-ocaml) - Set up an OCaml and opam environment in GitHub Actions and add to PATH.
 
 ### GitHub Tools and Management
 
