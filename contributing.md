@@ -4,14 +4,15 @@ Please note that this project is released with a [Contributor Code of Conduct](c
 
 If you are new to open source, I've written a [guide for how to contribute](https://css-tricks.com/how-to-contribute-to-an-open-source-project/).
 
-> The pull request should have a useful title. Pull requests with `Update readme.md` as title will be closed. Please carefully read everything in `Adding to this list`.
+> The pull request should have a useful title. Pull requests with `Update README.md` as title will be closed. Please carefully read everything in `Adding to this list`.
 
 ## Table of Contents
 
-- [Adding to this list](#adding-to-this-list)
-- [Updating your Pull Request](#updating-your-pull-request)
+- [Table of Contents](#table-of-contents)
+- [Adding to This List](#adding-to-this-list)
+- [Updating Your Pull Request](#updating-your-pull-request)
 
-## Adding to this list
+## Adding to This List
 
 Please ensure your pull request adheres to the following guidelines:
 
@@ -31,7 +32,7 @@ Please ensure your pull request adheres to the following guidelines:
 
 Thank you for your suggestions!
 
-## Updating your Pull Request
+## Updating Your Pull Request
 
 Sometimes, we will ask you to edit your Pull Request before it is included. This is normally due to spelling errors or because your PR didn't match the awesome-actions list guidelines.
 
