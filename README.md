@@ -122,6 +122,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Setup Ruby](https://github.com/ruby/setup-ruby) - Download a prebuilt Ruby and add it to the PATH in 5 seconds.
 - [Setup Elixir](https://github.com/erlef/setup-beam) - Set up your BEAM-based GitHub Actions workflow (Erlang, Elixir, Gleam, and so on).
 - [Setup Julia](https://github.com/julia-actions/setup-julia) - Sets up a Julia environment for use in actions by downloading a specified version of Julia and adding it to PATH.
+- [Setup OCaml](https://github.com/ocaml/setup-ocaml) - Set up an OCaml and opam environment in GitHub Actions and add to PATH.
 
 ### GitHub Tools and Management
 
@@ -196,6 +197,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [GitHub Actions by Red Hat](https://github.com/redhat-actions)
 - [GitHub Actions for Common Lisp](https://40ants.com/ci/)
 - [GitHub Actions for Ballerina](https://github.com/ballerina-platform/ballerina-action)
+- [GitHub Actions for Gradle builds](https://github.com/gradle/actions)
 
 ### Utility
 
@@ -475,6 +477,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [GitHub Action Notification for Discord, Slack, Telegram, Google Chat, Microsoft Teams](https://github.com/hunghg255/action-notifications)
 - [Notify New Pull Requests to Google Chats Room](https://github.com/ipacheco-uy/actions-chat) - Notify a Google Chats Room when a Pull-Request has been created with a nice card.
 - [Barklarm](https://github.com/kanekotic/barklarm) - Radiator that shows the status of your projects build as an item in the tray menu bar.
+- [Send Slack Message via SlackAPI](https://github.com/slackapi/slack-github-action)
 
 ### Deployment
 
@@ -657,5 +660,6 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Setup Auto-scaled self-hosted GitHub Actions Runners on AWS Spot-instances](https://040code.github.io/2020/05/25/scaling-selfhosted-action-runners)
 - [Getting the Gist of GitHub Actions](https://gist.github.com/br3ndonland/f9c753eb27381f97336aa21b8d932be6)
 - [Building GitHub Actions](https://actionsbook.com/)
-- [Adding self-hosted runners](https://help.github.com/en/actions/hosting-your-own-runners/adding-self-hosted-runners)
-- [Systemd - Configuring self-hosted runner service](https://help.github.com/en/actions/hosting-your-own-runners/configuring-the-self-hosted-runner-application-as-a-service)
+- [Docker-Based GitHub Actions in Orphan Branches](https://madhead.me/posts/orphan-action)
+- [Adding Self-Hosted Runners](https://help.github.com/en/actions/hosting-your-own-runners/adding-self-hosted-runners)
+- [Configuring the Self-Hosted Runner Application as a Service](https://help.github.com/en/actions/hosting-your-own-runners/configuring-the-self-hosted-runner-application-as-a-service)
