@@ -123,6 +123,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Setup Elixir](https://github.com/erlef/setup-beam) - Set up your BEAM-based GitHub Actions workflow (Erlang, Elixir, Gleam, and so on).
 - [Setup Julia](https://github.com/julia-actions/setup-julia) - Sets up a Julia environment for use in actions by downloading a specified version of Julia and adding it to PATH.
 - [Setup OCaml](https://github.com/ocaml/setup-ocaml) - Set up an OCaml and opam environment in GitHub Actions and add to PATH.
+- [Setup Wa Language](https://github.com/wa-lang/setup-wa) - Setup Wa Language Action.
 
 ### GitHub Tools and Management
 
@@ -274,6 +275,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Rerun Actions and Commands](https://github.com/Wandalen/wretry.action) - Retries a GitHub Action step or command on failure.
 - [Readme Update Actions](https://github.com/imskr/readme-update-actions) - Pulls latest blog posts and update you profile's README dynamically.
 - [GitHub Stats Card](https://github.com/datarootsio/github-stats-card) - A minimal but inclusive GitHub stats badge.
+- [Annotation Previewer](https://github.com/xt0rted/annotation-previewer) - A previewer for GitHub Actions annotation commands.
 
 #### Environments
 
@@ -569,6 +571,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Invoke a Lambda Function](https://github.com/gagoar/invoke-aws-lambda)
 - [Deploy a Helm Chart to the EKS](https://github.com/peymanmortazavi/eks-helm-deploy)
 - [CloudFront Invalidator](https://github.com/foxdalas/cloudfront-invalidator) - Invalidates the CloudFront cache for specified paths by finding the CloudFront distribution based on tags.
+- [Interacting With AWS CDK](https://github.com/ScottBrenner/aws-cdk-action) - Enables arbitrary actions for interacting with the AWS Cloud Development Kit via the `cdk` command.
 
 #### Terraform
 
