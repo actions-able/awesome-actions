@@ -37,4 +37,3 @@ jobs:
           VALIDATE_MARKDOWN_PRETTIER: false
           VALIDATE_JSON_PRETTIER: false
           VALIDATE_GIT_COMMITLINT: false
-          VALIDATE_NATURAL_LANGUAGE: "${{ vars.VALIDATE_NATURAL_LANGUAGE || true }}"

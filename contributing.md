@@ -36,4 +36,16 @@ Thank you for your suggestions!
 
 Sometimes, we will ask you to edit your Pull Request before it is included. This is normally due to spelling errors or because your PR didn't match the awesome-actions list guidelines.
 
+You can also run some [just](https://just.systems) receipe to help you reduce the editing:
+
+> [!TIP]
+> **prerequisites**
+>
+> - Install the right `just` [package](https://just.systems/man/en/packages.html),
+> - Install the right `node` [package](https://nodejs.org/en/download).
+>
+> Than `just configure` to prepare your local machine.
+
+- `just feedback` to run all related linters on your contribution.
+
 [Here](https://github.com/RichardLitt/knowledge/blob/master/github/amending-a-commit-guide.md) is a write up on how to change a Pull Request, and the different ways you can do that.

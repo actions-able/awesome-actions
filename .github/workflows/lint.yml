@@ -27,6 +27,12 @@ jobs:
           fetch-depth: 0
 =======
 
+<<<<<<< HEAD
 >>>>>>> 6760a9f (Add GitHub Super Linter (#20))
       - run: npx awesome-lint
+=======
+      - uses: taiki-e/install-action@just
+
+      - run: just awesome-lint
+>>>>>>> 9c3215b (Help you to contribute (#105))
         shell: bash
