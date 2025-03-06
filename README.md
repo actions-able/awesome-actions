@@ -639,7 +639,8 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 
 ### Runners
 
-- [GitHub Actions self-hosted runners provisioning](https://github.com/samber/github-actions-runner)
+- [On-Demand Self-Hosted AWS EC2 Runner](https://github.com/machulav/ec2-github-runner)
+- [GitHub Actions Self-Hosted Runners Provisioning](https://github.com/samber/github-actions-runner)
 
 ### Cheat Sheet
 
