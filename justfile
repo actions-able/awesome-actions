@@ -1,6 +1,7 @@
 #!/usr/bin/env -S just --justfile
 
 set quiet := true
+set dotenv-load := true
 
 default:
 	just --choose
@@ -36,3 +37,11 @@ textlint:
 [group('Contribution')]
 awesome-lint:
     npx awesome-lint
+
+# Helper to create a PR in the forked repository taken from the upstream one
+[group('Fork Maintenance')]
+maintain-fork upstream_pr="":
+    gh pr checkout -b {{ upstream_pr }} "https://github.com/${UPSTREAM_REPOSITORY}/pull/{{ upstream_pr }}"
+    git push origin {{ upstream_pr }}
+    gh pr create -a "${FORKED_ASSIGNEE}" -l "${FORKED_LABEL}" -t "$(gh pr view {{ upstream_pr }} --json title --jq '.title')" -b "Linked to ${UPSTREAM_REPOSITORY}#{{ upstream_pr }}" -H {{ upstream_pr }} -B "${FORKED_DEFAULT_BRANCH}" -R "${FORKED_REPOSITORY}"
+    git checkout "${FORKED_DEFAULT_BRANCH}"
