@@ -274,6 +274,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Rerun Actions and Commands](https://github.com/Wandalen/wretry.action) - Retries a GitHub Action step or command on failure.
 - [Readme Update Actions](https://github.com/imskr/readme-update-actions) - Pulls latest blog posts and update you profile's README dynamically.
 - [GitHub Stats Card](https://github.com/datarootsio/github-stats-card) - A minimal but inclusive GitHub stats badge.
+- [Annotation Previewer](https://github.com/xt0rted/annotation-previewer) - A previewer for GitHub Actions annotation commands.
 
 #### Environments
 
