@@ -44,6 +44,7 @@ Actions are triggered by GitHub platform events directly in a repository and run
   - [Networking](#networking)
   - [Localization](#localization)
   - [Fun](#fun)
+  - [Runners](#runners)
   - [Cheat Sheet](#cheat-sheet)
 - [Tutorials](#tutorials)
 
@@ -635,6 +636,10 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 ### Fun
 
 - [Add equivalent of a like button in your README.md](https://github.com/ariary/Readme-Like-Button) - Visualize community approval on some part of your README (can be used as a poll).
+
+### Runners
+
+- [On-Demand Self-Hosted AWS EC2 Runner](https://github.com/machulav/ec2-github-runner)
 
 ### Cheat Sheet
 
