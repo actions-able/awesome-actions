@@ -4,11 +4,11 @@
   "rules": {
     "terminology": {
       "skip": [ "Link" ],
+      "exclude": [
+        "readme(s)?"
+      ],
       "terms": [
         [ "README(s)?", "README$1" ]
-      ],
-      "exclude": [
-        [ "readme(s)?", "readme$1" ]
       ]
     }
   }

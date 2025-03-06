@@ -444,7 +444,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Mention Completed Pull Requests in Draft Release](https://github.com/dnbkr/clog)
 - [Recap](https://github.com/flowwer-dev/recap) - Summarize the most significant changes in a pull request using OpenAI ChatGPT.
 - [Semantic Pull Request Composer](https://github.com/mateoguzmana/semantic-pr-composer) - Automatically composes the pull request title and body based on the branch name, which follows a semantic convention. Optional AI autocompletion using OpenAI completions API is also available.
-- [Get Merged Pull Requests](https://github.com/VanOns/get-merged-pull-requests-action) - GitHub action that compares 2 tags and retrieves all pull requests merged between them.
+- [Get Merged Pull Requests](https://github.com/VanOns/get-merged-pull-requests-action) - GitHub Action that compares 2 tags and retrieves all pull requests merged between them.
 - [Catch Performance Regressions in Pull Requests](https://github.com/bencherdev/bencher)
 
 ### GitHub Pages
