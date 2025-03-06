@@ -195,6 +195,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [GitHub Actions by Red Hat](https://github.com/redhat-actions)
 - [GitHub Actions for Common Lisp](https://40ants.com/ci/)
 - [GitHub Actions for Ballerina](https://github.com/ballerina-platform/ballerina-action)
+- [GitHub Actions for Gradle builds](https://github.com/gradle/actions)
 
 ### Utility
 
