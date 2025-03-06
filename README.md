@@ -653,3 +653,4 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Setup Auto-scaled self-hosted GitHub Actions Runners on AWS Spot-instances](https://040code.github.io/2020/05/25/scaling-selfhosted-action-runners)
 - [Getting the Gist of GitHub Actions](https://gist.github.com/br3ndonland/f9c753eb27381f97336aa21b8d932be6)
 - [Building GitHub Actions](https://actionsbook.com/)
+- [Docker-Based GitHub Actions in Orphan Branches](https://madhead.me/posts/orphan-action)
