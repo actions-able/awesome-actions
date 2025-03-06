@@ -5,7 +5,7 @@
     "terminology": {
       "skip": [ "Link" ],
       "exclude": [
-        [ "readme(s)?", "readme$1" ]
+        "readme(s)?"
       ],
       "terms": [
         [ "README(s)?", "README$1" ]
