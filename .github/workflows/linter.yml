@@ -1,5 +1,5 @@
 ---
-name: Lint repository
+name: Lint
 
 on:
   push:
@@ -7,18 +7,35 @@ on:
   pull_request:
   workflow_dispatch:
 
-permissions: read-all
+permissions:
+  contents: read
+  packages: read
+  # To report GitHub Actions status checks
+  statuses: write
 
 jobs:
-  build:
-    name: Lint
+  dedicated-linter:
+    name: Dedicated Linters
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        linter:
+          - awesome-lint
+          - textlint-titlecase
+    steps:
+      - uses: actions/checkout@v4
 
-    permissions:
-      contents: read
-      packages: read
-      # To report GitHub Actions status checks
-      statuses: write
+      - uses: taiki-e/install-action@just
+
+      - run: just configure
+        shell: bash
+
+      - run: just ${{ matrix.linter }}
+        shell: bash
+
+  general-linter:
+    name: General Linters
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
