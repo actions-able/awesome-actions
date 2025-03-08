@@ -24,6 +24,8 @@ jobs:
           - textlint-titlecase
     steps:
       - uses: actions/checkout@v4
+          # so awesome-lint can check the repo age
+          fetch-depth: 0
 
       - uses: taiki-e/install-action@just
 
