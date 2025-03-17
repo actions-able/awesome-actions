@@ -50,7 +50,7 @@ Actions are triggered by GitHub platform events directly in a repository and run
 
 <!--lint disable no-undefined-references-->
 > [!TIP]
-> Please don't hesitate to make a PR if you have more resources to share. Check out [contributing.md](contributing.md) for more information.
+> Please don't hesitate to make a PR if you have more resources to share. Check out the [Contributing Guide](contributing.md) for more information.
 <!--lint enable no-undefined-references-->
 
 ## Official Resources
@@ -58,10 +58,10 @@ Actions are triggered by GitHub platform events directly in a repository and run
 - [Official Site](https://github.com/features/actions)
 - [Official Documentation](https://help.github.com/en/actions)
 - [Official GitHub Blog Announcement](https://github.blog/enterprise-software/automation/action-demos/)
-- [Official Actions organization](https://github.com/actions)
-  - [actions/virtual-environments](https://github.com/actions/runner-images) - GitHub Actions runner images.
-  - [actions/runner](https://github.com/actions/runner) - The Runner for GitHub Actions.
-  - [actions/starter-workflows](https://github.com/actions/starter-workflows) - Starter workflow management.
+- [Official Actions Organization](https://github.com/actions)
+  - [Actions/Virtual-Environments](https://github.com/actions/runner-images) - GitHub Actions runner images.
+  - [Actions/Runner](https://github.com/actions/runner) - The Runner for GitHub Actions.
+  - [Actions/Starter-Workflows](https://github.com/actions/starter-workflows) - Starter workflow management.
 
 ### Official Actions
 
@@ -69,56 +69,56 @@ Actions are triggered by GitHub platform events directly in a repository and run
 
 Tool actions for your workflow.
 
-- [actions/checkout](https://github.com/actions/checkout) - Setup your repository on your workflow.
-- [actions/upload-artifact](https://github.com/actions/upload-artifact) - Upload artifacts from your workflow.
-- [actions/download-artifact](https://github.com/actions/download-artifact) - Download artifacts from your build.
-- [actions/cache](https://github.com/actions/cache) - Cache dependencies and build outputs in GitHub Actions.
-- [actions/github-script](https://github.com/actions/github-script) - Write a script for GitHub API and the workflow contexts.
+- [Actions/Checkout](https://github.com/actions/checkout) - Setup your repository on your workflow.
+- [Actions/Upload-Artifact](https://github.com/actions/upload-artifact) - Upload artifacts from your workflow.
+- [Actions/Download-Artifact](https://github.com/actions/download-artifact) - Download artifacts from your build.
+- [Actions/Cache](https://github.com/actions/cache) - Cache dependencies and build outputs in GitHub Actions.
+- [Actions/GitHub-Script](https://github.com/actions/github-script) - Write a script for GitHub API and the workflow contexts.
 
 #### Actions for GitHub Automation
 
 Automate management for issues, pull requests, and releases.
 
-- [actions/first-interaction](https://github.com/actions/first-interaction) - An action for filtering pull requests and issues from first-time contributors.
-- [actions/stale](https://github.com/actions/stale) - Marks issues and pull requests that have not had recent interaction.
-- [actions/labeler](https://github.com/actions/labeler) - An action for automatically labelling pull requests.
-- [actions/delete-package-versions](https://github.com/actions/delete-package-versions) - Delete versions of a package from GitHub Packages.
+- [Actions/First-Interaction](https://github.com/actions/first-interaction) - An action for filtering pull requests and issues from first-time contributors.
+- [Actions/Stale](https://github.com/actions/stale) - Marks issues and pull requests that have not had recent interaction.
+- [Actions/Labeler](https://github.com/actions/labeler) - An action for automatically labelling pull requests.
+- [Actions/Delete-Package-Versions](https://github.com/actions/delete-package-versions) - Delete versions of a package from GitHub Packages.
 
 #### Official Setup Actions
 
 Set up your GitHub Actions workflow with a specific version of your programming languages.
 
-- [actions/setup-node: Node.js](https://github.com/actions/setup-node)
-- [actions/setup-python: Python](https://github.com/actions/setup-python)
-- [actions/setup-go: Go](https://github.com/actions/setup-go)
-- [actions/setup-dotnet: .NET Core SDK](https://github.com/actions/setup-dotnet)
-- [actions/setup-java: Java](https://github.com/actions/setup-java)
+- [Actions/Setup-Node: Node.js](https://github.com/actions/setup-node)
+- [Actions/Setup-Python: Python](https://github.com/actions/setup-python)
+- [Actions/Setup-Go: Go](https://github.com/actions/setup-go)
+- [Actions/Setup-Dotnet: .NET Core SDK](https://github.com/actions/setup-dotnet)
+- [Actions/Setup-Java: Java](https://github.com/actions/setup-java)
 
 ### Create Your Actions
 
 #### JavaScript and TypeScript Actions
 
-- [actions/toolkit](https://github.com/actions/toolkit) - The GitHub ToolKit for developing GitHub Actions.
-- [actions/hello-world-javascript-action](https://github.com/actions/hello-world-javascript-action) - A template to build a JavaScript action.
-- [actions/javascript-action](https://github.com/actions/javascript-action) - Create a JavaScript Action.
-- [actions/typescript-action](https://github.com/actions/typescript-action) - Create a TypeScript Action.
+- [Actions/Toolkit](https://github.com/actions/toolkit) - The GitHub ToolKit for developing GitHub Actions.
+- [Actions/Hello-World-JavaScript-Action](https://github.com/actions/hello-world-javascript-action) - A template to build a JavaScript action.
+- [Actions/JavaScript-Action](https://github.com/actions/javascript-action) - Create a JavaScript Action.
+- [Actions/TypeScript-Action](https://github.com/actions/typescript-action) - Create a TypeScript Action.
 
 #### Docker Container Actions
 
-- [actions/hello-world-docker-action](https://github.com/actions/hello-world-docker-action) - A template to build a Docker action.
-- [actions/container-action](https://github.com/actions/container-action) - Bootstrap the creation of a container action.
-- [actions/container-toolkit-action](https://github.com/actions/container-toolkit-action) - Template repository for creating container actions using actions/toolkit.
+- [Actions/Hello-World-Docker-Action](https://github.com/actions/hello-world-docker-action) - A template to build a Docker action.
+- [Actions/Container-Action](https://github.com/actions/container-action) - Bootstrap the creation of a container action.
+- [Actions/Container-Toolkit-Action](https://github.com/actions/container-toolkit-action) - Template repository for creating container actions using actions/toolkit.
 
 #### Composite Actions
 
-- [GitHub Docs: creating a composite action](https://docs.github.com/en/actions/sharing-automations/creating-actions/creating-a-composite-action)
+- [GitHub Docs: Creating a Composite Action](https://docs.github.com/en/actions/sharing-automations/creating-actions/creating-a-composite-action)
 
 ## Community Resources
 
 ### Setup Actions
 
 - [Setup Haskell](https://github.com/haskell-actions/setup) - Setting up GHC, cabal, stack on for Haskell-related CIs.
-- [Setup Haskell hlint](https://github.com/haskell-actions/hlint-setup) - Reusable GitHub Action to set up hlint in a workflow. Use with haskell-actions/hlint-run.
+- [Setup Haskell HLint](https://github.com/haskell-actions/hlint-setup) - Reusable GitHub Action to set up hlint in a workflow. Use with haskell-actions/hlint-run.
 - [Setup Ruby](https://github.com/ruby/setup-ruby) - Download a prebuilt Ruby and add it to the PATH in 5 seconds.
 - [Setup Elixir](https://github.com/erlef/setup-beam) - Set up your BEAM-based GitHub Actions workflow (Erlang, Elixir, Gleam, and so on).
 - [Setup Julia](https://github.com/julia-actions/setup-julia) - Sets up a Julia environment for use in actions by downloading a specified version of Julia and adding it to PATH.
@@ -127,27 +127,27 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 
 ### GitHub Tools and Management
 
-- [Declaratively setup GitHub Labels](https://github.com/lannonbr/issue-label-manager-action)
-- [Action to sync GitHub labels in the declarative way](https://github.com/micnncim/action-label-syncer)
-- [Add releases to GitHub](https://github.com/elgohr/Github-Release-Action)
-- [Publish a docker image to Dockerhub](https://github.com/elgohr/Publish-Docker-Github-Action)
-- [Create an issue using content from a file](https://github.com/peter-evans/create-issue-from-file)
-- [Publish GitHub Releases with Assets](https://github.com/softprops/action-gh-release)
+- [Declaratively Setup GitHub Labels](https://github.com/lannonbr/issue-label-manager-action)
+- [Action to Sync GitHub Labels in the Declarative Way](https://github.com/micnncim/action-label-syncer)
+- [Add Releases to GitHub](https://github.com/elgohr/Github-Release-Action)
+- [Publish a Docker Image to Dockerhub](https://github.com/elgohr/Publish-Docker-Github-Action)
+- [Create an Issue Using Content From a File](https://github.com/peter-evans/create-issue-from-file)
+- [Publish GitHub Releases With Assets](https://github.com/softprops/action-gh-release)
 - [GitHub Project Automation+](https://github.com/alex-page/github-project-automation-plus) - Automate GitHub Project cards with any webhook event.
-- [Run GitHub Actions Locally with a web interface](https://github.com/phishy/wflow)
+- [Run GitHub Actions Locally With a Web Interface](https://github.com/phishy/wflow)
 - [Run GitHub Actions Locally in Terminal](https://github.com/nektos/act)
-- [Build and Publish Android debug APK](https://github.com/ShaunLWM/action-release-debugapk)
-- [Generate sequential build numbers for GitHub Actions](https://github.com/einaregilsson/build-number)
-- [Push Git changes to GitHub repository without authentication difficulties](https://github.com/ad-m/github-push-action)
-- [Generate release notes based on your events](https://github.com/Decathlon/release-notes-generator-action)
-- [Create a GitHub wiki page based on the provided Markdown file](https://github.com/Decathlon/wiki-page-creator-action)
-- [Label your Pull Requests auto-magically (using committed files)](https://github.com/Decathlon/pull-request-labeler-action)
-- [Add Label to your Pull Requests based on the author team name](https://github.com/JulienKode/team-labeler-action)
-- [Get a list of file changes with PR/Push](https://github.com/trilom/file-changes-action)
-- [Use private actions in any workflow](https://github.com/InVisionApp/private-action-loader)
+- [Build and Publish Android Debug APK](https://github.com/ShaunLWM/action-release-debugapk)
+- [Generate Sequential Build Numbers for GitHub Actions](https://github.com/einaregilsson/build-number)
+- [Push Git Changes to GitHub Repository Without Authentication Difficulties](https://github.com/ad-m/github-push-action)
+- [Generate Release Notes Based on Your Events](https://github.com/Decathlon/release-notes-generator-action)
+- [Create a GitHub Wiki Page Based on the Provided Markdown File](https://github.com/Decathlon/wiki-page-creator-action)
+- [Label Your Pull Requests Auto-Magically (Using Committed Files)](https://github.com/Decathlon/pull-request-labeler-action)
+- [Add Label to Your Pull Requests Based on the Author Team Name](https://github.com/JulienKode/team-labeler-action)
+- [Get a List of File Changes With PR/Push](https://github.com/trilom/file-changes-action)
+- [Use Private Actions in Any Workflow](https://github.com/InVisionApp/private-action-loader)
 - [Label Your Issues Using the Issue's Contents](https://github.com/damccorm/tag-ur-it)
 - [Rollback a GitHub Release](https://github.com/author/action-rollback)
-- [Lock Closed Issues and Pull Requests after a Period of Inactivity](https://github.com/dessant/lock-threads)
+- [Lock Closed Issues and Pull Requests After a Period of Inactivity](https://github.com/dessant/lock-threads)
 - [Get Commit Difference Count Between Two Branches](https://github.com/jessicalostinspace/commit-difference-action)
 - [Generate Release Notes Based on Git References](https://github.com/metcalfc/changelog-generator)
 - [Enforce Policies on GitHub Repositories and Commits](https://github.com/talos-systems/conform)
@@ -159,9 +159,9 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Sync Defined Files/Binaries to Wiki or External Repositories](https://github.com/kai-tub/external-repo-sync-action)
 - [Create/Update/Delete a GitHub Wiki Page Based on Any File](https://github.com/Andrew-Chen-Wang/github-wiki-action)
 - [Prow GitHub Actions](https://github.com/jpmcb/prow-github-actions) - Automation of policy enforcement, chat-ops, and automatic PR merging.
-- [Check GitHub Status in your Workflow](https://github.com/crazy-max/ghaction-github-status)
-- [Manage Labels on GitHub (create/rename/update/delete) as Code](https://github.com/crazy-max/ghaction-github-labeler)
-- [Continuous Distribution of Funding to your Project Contributors and Dependencies](https://github.com/protontypes/libreselery)
+- [Check GitHub Status in Your Workflow](https://github.com/crazy-max/ghaction-github-status)
+- [Manage Labels on GitHub (Create/Rename/Update/Delete) As Code](https://github.com/crazy-max/ghaction-github-labeler)
+- [Continuous Distribution of Funding to Your Project Contributors and Dependencies](https://github.com/protontypes/libreselery)
 - [Herald Rules for GitHub: Add Subscribers, Assignees, Labels, and More to Your PR](https://github.com/gagoar/use-herald-action)
 - [Code of Conduct Compliance Through Sentiments Analysis](https://github.com/derberg/code-of-conduct-sentiment-analysis-github-action) - Analyze sentiments in issues and PRs to identify negative content that may violate your code of conduct.
 - [GitHub Codeowners Validator](https://github.com/mszostok/codeowners-validator) - Ensures the correctness of your GitHub CODEOWNERS file. It supports public and private GitHub repositories and also GitHub Enterprise installations.
@@ -199,40 +199,40 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [GitHub Actions by Red Hat](https://github.com/redhat-actions)
 - [GitHub Actions for Common Lisp](https://40ants.com/ci/)
 - [GitHub Actions for Ballerina](https://github.com/ballerina-platform/ballerina-action)
-- [GitHub Actions for Gradle builds](https://github.com/gradle/actions)
+- [GitHub Actions for Gradle Builds](https://github.com/gradle/actions)
 
 ### Utility
 
-- [Setup `ssh-agent`](https://github.com/webfactory/ssh-agent) - Run `ssh-agent` with additional SSH keys to access private repositories.
-- [GitHub Actions Badges for your README](https://github.com/atrox/github-actions-badge)
-- [GitHub Actions for Python project with poetry](https://github.com/abatilo/actions-poetry)
-- [GitHub Actions for Python project with pyenv](https://github.com/gabrielfalcao/pyenv-action)
-- [GitHub Actions to compile LaTeX documents](https://github.com/xu-cheng/latex-action)
+- [Setup `ssh-Agent`](https://github.com/webfactory/ssh-agent) - Run `ssh-agent` with additional SSH keys to access private repositories.
+- [GitHub Actions Badges for Your README File](https://github.com/atrox/github-actions-badge)
+- [GitHub Actions for Python Project With Poetry](https://github.com/abatilo/actions-poetry)
+- [GitHub Actions for Python Project With Pyenv](https://github.com/gabrielfalcao/pyenv-action)
+- [GitHub Actions to Compile LaTeX Documents](https://github.com/xu-cheng/latex-action)
 - [Update Maxmind Databases](https://github.com/meetup/maxmind-updater)
-- [Debug with SSH over tmate](https://github.com/mxschmitt/action-tmate) - Debug the Action directly by providing a SSH connection.
-- [Unlock git-crypt files](https://github.com/sliteteam/github-action-git-crypt-unlock)
-- [Golang CGO cross compiler](https://github.com/crazy-max/ghaction-xgo)
-- [Run your job on another architecture: arm32, aarch64 and others](https://github.com/uraimo/run-on-arch-action)
-- [Generate a table of contents](https://github.com/technote-space/toc-generator)
-- [Automatically add Label or Assignee to an Issue](https://github.com/Naturalclar/issue-action)
-- [Action to send LGTM reaction as image or GIF when we say lgtm](https://github.com/micnncim/action-lgtm-reaction)
-- [Generate build numbers across multiple scopes](https://github.com/zyborg/gh-action-buildnum)
-- [Publish GitHub release artifacts](https://github.com/skx/github-action-publish-binaries)
+- [Debug With SSH Over Tmate](https://github.com/mxschmitt/action-tmate) - Debug the Action directly by providing a SSH connection.
+- [Unlock Git-Crypt Files](https://github.com/sliteteam/github-action-git-crypt-unlock)
+- [Golang CGO Cross Compiler](https://github.com/crazy-max/ghaction-xgo)
+- [Run Your Job on Another Architecture: Arm32, Aarch64 and Others](https://github.com/uraimo/run-on-arch-action)
+- [Generate a Table of Contents](https://github.com/technote-space/toc-generator)
+- [Automatically Add Label or Assignee to an Issue](https://github.com/Naturalclar/issue-action)
+- [Action to Send LGTM Reaction As Image or GIF When We Say LGTM](https://github.com/micnncim/action-lgtm-reaction)
+- [Generate Build Numbers Across Multiple Scopes](https://github.com/zyborg/gh-action-buildnum)
+- [Publish GitHub Release Artifacts](https://github.com/skx/github-action-publish-binaries)
 - [Jekyll Diff Action](https://github.com/David-Byrne/jekyll-diff-action) - Diffs the built Jekyll site after a change, and comments the result back to GitHub.
 - [Branch Protection Bot](https://github.com/benjefferies/branch-protection-bot) - Temporarily disable and re-enable "Include administrators" option in branch protection.
-- [Wait for commit statuses](https://github.com/WyriHaximus/github-action-wait-for-status) - Wait until all statuses and checks are successful or any of them has failed and set its status output.
+- [Wait for Commit Statuses](https://github.com/WyriHaximus/github-action-wait-for-status) - Wait until all statuses and checks are successful or any of them has failed and set its status output.
 - [Get Latest Tag](https://github.com/WyriHaximus/github-action-get-previous-tag) - Get the previous tag from Git.
 - [Create Milestone](https://github.com/WyriHaximus/github-action-create-milestone) - Create a new open milestone given the title and description.
 - [Close Milestone](https://github.com/WyriHaximus/github-action-close-milestone) - Close the given milestone.
-- [Action to enforce branch naming rules](https://github.com/deepakputhraya/action-branch-name)
-- [Expose slug of some GitHub variables](https://github.com/marketplace/actions/github-slug)
-- [awesome-lint as a GitHub Action](https://github.com/max/awesome-lint)
+- [Action to Enforce Branch Naming Rules](https://github.com/deepakputhraya/action-branch-name)
+- [Expose Slug of Some GitHub Variables](https://github.com/marketplace/actions/github-slug)
+- [Awesome-Lint As a GitHub Action](https://github.com/max/awesome-lint)
 - [Edit JSON File](https://github.com/deef0000dragon1/json-edit-action)
-- [Build Slate documentation](https://github.com/Decathlon/slate-builder-action)
+- [Build Slate Documentation](https://github.com/Decathlon/slate-builder-action)
 - [Read Properties](https://github.com/christian-draeger/read-properties) - Read values from `.properties` files.
 - [Write Properties](https://github.com/christian-draeger/write-properties) - Write values to `.properties` files.
 - [Autotag](https://github.com/butlerlogic/action-autotag) - Automatically generate a new tag when the manifest file (that is `package.json`) version changes.
-- [Apply templates with Jinja2](https://github.com/cuchi/jinja2-action) - Use the Jinja2 template engine to generate files from templates.
+- [Apply Templates With Jinja2](https://github.com/cuchi/jinja2-action) - Use the Jinja2 template engine to generate files from templates.
 - [Has Changes](https://github.com/UnicornGlobal/has-changes-action) - Check if there are code changes from previous steps.
 - [Mind Your Language Action](https://github.com/tailaiw/mind-your-language-action) - Detect offensive comments in issues and pull requests, and warn senders.
 - [YAML/JSON/XML Converter](https://github.com/fabasoad/yaml-json-xml-converter-action) - Converts YAML/JSON/XML file formats interchangeably.
@@ -247,12 +247,12 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Public IP](https://github.com/haythem/public-ip) - Queries GitHub Actions runner's public IP address.
 - [GitHub Actions for Lazarus/FPC](https://github.com/gcarreno/setup-lazarus)
 - [Twilio Fax](https://github.com/fabasoad/twilio-fax-action/) - Sends a document by fax using your Twilio account.
-- [Setup Kubernetes tools](https://github.com/yokawasa/action-setup-kube-tools) - Install Kubernetes tools (kubectl, kustomize, helm, kubeval, conftest, and yq) on the runner.
+- [Setup Kubernetes Tools](https://github.com/yokawasa/action-setup-kube-tools) - Install Kubernetes tools (kubectl, kustomize, helm, kubeval, conftest, and yq) on the runner.
 - [Setup Elastic Cloud Control Tool](https://github.com/yokawasa/action-setup-ecctl) - Install a specific version of ecctl on the runner.
 - [PowerShell Script](https://github.com/Amadevus/pwsh-script) - Run PowerShell scripts with workflow contexts (for example `$github.token`) and cmdlets, return value => action output.
-- [Upload and Scan Files with VirusTotal](https://github.com/crazy-max/ghaction-virustotal)
+- [Upload and Scan Files With VirusTotal](https://github.com/crazy-max/ghaction-virustotal)
 - [Import a GPG Key](https://github.com/crazy-max/ghaction-import-gpg)
-- [Compress with UPX](https://github.com/crazy-max/ghaction-upx) - The Ultimate Packer for eXecutables.
+- [Compress With UPX](https://github.com/crazy-max/ghaction-upx) - The Ultimate Packer for eXecutables.
 - [Pull the New Go Module Version Into the Proxy Cache](https://github.com/andrewslotin/go-proxy-pull-action) - Ensures the latest version of your Go module is in the proxy cache. Also updates the pkg.go.dev documentation upon release.
 - [Delete Run Artifacts](https://github.com/marketplace/actions/delete-run-artifacts) - Deletes all artifacts at the end of a workflow run.
 - [GitHub Environment Variables Action](https://github.com/FranzDiebold/github-env-vars-action) - Expose environment variables such as the branch/tag name, repository slug, and ref slug.
@@ -260,11 +260,11 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Paths Filter](https://github.com/dorny/paths-filter) - Conditionally run actions based on files modified by PR, feature branch or pushed commits.
 - [Minisauras](https://github.com/TeamTigers/minisauras) - Pulls all the JavaScript and CSS files from your base branch, minify them and creates a pull-request with a new branch.
 - [Site to GIF](https://github.com/PabloLec/website-to-gif) - Turn any web page into a GIF to display on your README, docs, etc.
-- [Interactive Inputs - Runtime workflow inputs](https://github.com/boasiHQ/interactive-inputs) - Add dynamic inputs at runtime for your GitHub Actions workflows.
+- [Interactive Inputs - Runtime Workflow Inputs](https://github.com/boasiHQ/interactive-inputs) - Add dynamic inputs at runtime for your GitHub Actions workflows.
 - [Draw.io Export Action](https://github.com/rlespinasse/drawio-export-action) - Recursively export Draw.io Files to multiple formats.
 - [Paste Secret](https://github.com/bariscanyilmaz/paste-secret) - Paste your GitHub Secrets to files.
 - [Label and Display the Top-Upvoted Issues and Pull Requests](https://github.com/rickstaa/top-issues-action)
-- [Provide a unified check for whether the dependency jobs are all green](https://github.com/re-actors/alls-green) - This allows to have just one check added to the branch protection for a workflow.
+- [Provide a Unified Check for Whether the Dependency Jobs Are All Green](https://github.com/re-actors/alls-green) - This allows to have just one check added to the branch protection for a workflow.
 - [Read Java Properties](https://github.com/madhead/read-java-properties) - Read values from `.properties` files.
 - [ReDoc CLI GitHub Action](https://github.com/seeebiii/redoc-cli-github-action) - Use redoc-cli in your GitHub Action to generate OpenAPI documentation.
 - [Setup Clojure Build Tools](https://github.com/DeLaGuardo/setup-clojure) - Install specific or all major build tools for Clojure.
@@ -273,7 +273,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Setup Vim/Neovim](https://github.com/rhysd/action-setup-vim) - Install Vim/Neovim for testing editor plugins.
 - [Cached LFS Checkout](https://github.com/nschloe/action-cached-lfs-checkout) - Cached checkout of LFS resources.
 - [Rerun Actions and Commands](https://github.com/Wandalen/wretry.action) - Retries a GitHub Action step or command on failure.
-- [Readme Update Actions](https://github.com/imskr/readme-update-actions) - Pulls latest blog posts and update you profile's README dynamically.
+- [README Update Actions](https://github.com/imskr/readme-update-actions) - Pulls latest blog posts and update you profile's README dynamically.
 - [GitHub Stats Card](https://github.com/datarootsio/github-stats-card) - A minimal but inclusive GitHub stats badge.
 - [Annotation Previewer](https://github.com/xt0rted/annotation-previewer) - A previewer for GitHub Actions annotation commands.
 

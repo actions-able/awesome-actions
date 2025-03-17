@@ -1,0 +1,26 @@
+{
+  "plugins": { },
+  "filters": { },
+  "rules": {
+    "link-title-case": {
+      "specialTerms": {
+        ".net": ".NET",
+        "apk": "APK",
+        "cgo": "CGO",
+        "fpc": "FPC",
+        "gpg": "GPG",
+        "latex": "LaTeX",
+        "lfs": "LFS",
+        "lgtm": "LGTM",
+        "nsfw": "NSFW",
+        "powershell": "PowerShell",
+        "readme": "README",
+        "readme.md": "README.md",
+        "redoc": "ReDoc",
+        "rest": "REST",
+        "upx": "UPX",
+        "virustotal": "VirusTotal"
+      }
+    }
+  }
+}

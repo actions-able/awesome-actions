@@ -24,10 +24,11 @@ configure-textlint:
     npm install textlint -g
     npm install textlint-rule-terminology -g
     npm install textlint-rule-title-case -g
+    npm install textlint-rule-link-title-case -g
 
 # Give feedback on contribution
 [group('Contribution')]
-feedback: awesome-lint textlint textlint-titlecase
+feedback: awesome-lint textlint textlint-titlecase textlint-linktitlecase
 
 # Run textlint for terminology
 [group('Contribution')]
@@ -39,10 +40,34 @@ textlint:
 textlint-titlecase:
     textlint -c .github/linters/.textlintrc.titlecase *
 
+# Run textlint for link title case
+[group('Contribution')]
+textlint-linktitlecase:
+    textlint -c .github/linters/.textlintrc.linktitlecase *
+
 # Run awesome-lint
 [group('Contribution')]
 awesome-lint:
     npx awesome-lint
+
+# Fix contribution
+[group('Contribution')]
+fix: fix-textlint fix-textlint-titlecase fix-textlint-linktitlecase
+
+# Apply fix for textlint for terminology
+[group('Contribution')]
+fix-textlint:
+    textlint -c .github/linters/.textlintrc --fix *
+
+# Apply fix for textlint for title case
+[group('Contribution')]
+fix-textlint-titlecase:
+    textlint -c .github/linters/.textlintrc.titlecase --fix *
+
+# Apply fix for textlint for link title case
+[group('Contribution')]
+fix-textlint-linktitlecase:
+    textlint -c .github/linters/.textlintrc.linktitlecase --fix *
 
 # Helper to create a PR in the forked repository taken from the upstream one
 [group('Fork Maintenance')]
