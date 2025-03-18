@@ -18,6 +18,7 @@ jobs:
     name: Dedicated Linters
     runs-on: ubuntu-latest
     strategy:
+      fail-fast: false
       matrix:
         linter:
           - awesome-lint
