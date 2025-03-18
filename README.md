@@ -279,25 +279,25 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 
 #### Environments
 
-- [Create an envfile](https://github.com/SpicyPizza/create-envfile)
-- [Export global environment variables for succeeding build steps](https://github.com/zweitag/github-actions)
-- [Programmatically set environment variables for use in subsequent steps](https://github.com/allenevans/set-env)
-- [Install Conda environments for Python](https://github.com/goanpeca/setup-miniconda)
+- [Create an Envfile](https://github.com/SpicyPizza/create-envfile)
+- [Export Global Environment Variables for Succeeding Build Steps](https://github.com/zweitag/github-actions)
+- [Programmatically Set Environment Variables for Use in Subsequent Steps](https://github.com/allenevans/set-env)
+- [Install Conda Environments for Python](https://github.com/goanpeca/setup-miniconda)
 - [Setup NativeScript](https://github.com/hrueger/setup-nativescript)
 - [Create a JSON Environment File](https://github.com/schdck/create-env-json)
 
 #### Dependencies
 
-- [Install npm Dependencies with Caching](https://github.com/bahmutov/npm-install)
-- [Highlight New npm Dependencies](https://github.com/hiwelo/new-dependencies-action) - Comments on pull requests newly added npm dependencies information.
-- [Cache npm Dependencies](https://github.com/c-hive/gha-npm-cache)
+- [Install Npm Dependencies With Caching](https://github.com/bahmutov/npm-install)
+- [Highlight New Npm Dependencies](https://github.com/hiwelo/new-dependencies-action) - Comments on pull requests newly added npm dependencies information.
+- [Cache Npm Dependencies](https://github.com/c-hive/gha-npm-cache)
 - [Cache Yarn Dependencies](https://github.com/c-hive/gha-yarn-cache)
-- [Cache npm/Yarn/Composer/etc for GHES Self-Hosted Docker](https://github.com/kevincobain2000/action-cache-http) - Action for caching dependencies on GitHub Enterprise via HTTP. Useful for self hosted runners.
+- [Cache Npm/Yarn/Composer/Etc for GHES Self-Hosted Docker](https://github.com/kevincobain2000/action-cache-http) - Action for caching dependencies on GitHub Enterprise via HTTP. Useful for self hosted runners.
 
 #### Semantic Versioning
 
 - [Next SemVers](https://github.com/WyriHaximus/github-action-next-semvers) - Output the next version for major, minor, and patch version based on the given SemVer version.
-- [Get latest SemVer and branch name given a search string](https://github.com/jessicalostinspace/github-action-get-regex-branch)
+- [Get Latest SemVer and Branch Name Given a Search String](https://github.com/jessicalostinspace/github-action-get-regex-branch)
 - [Cut Release Branch](https://github.com/jessicalostinspace/cut-release-action) - Cuts a release branch given a branch prefix and optional semantic version.
 - [Increment Semantic Version](https://github.com/christian-draeger/increment-semantic-version) - Bump a given semantic version (SemVer), depending on given release type.
 - [SemVer Utils](https://github.com/madhead/semver-utils) - One-stop shop for working with semantic versions in your GitHub Actions workflows. Parsing, comparing and bumping SemVers in a single action.
@@ -305,11 +305,11 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 
 ### Static Analysis
 
-- [PHPStan Static code analyzer Action](https://github.com/OskarStark/phpstan-ga)
+- [PHPStan Static Code Analyzer Action](https://github.com/OskarStark/phpstan-ga)
 - [GraphQL Inspector Action](https://github.com/kamilkisiela/graphql-inspector)
-- [PowerShell static analysis with PSScriptAnalyzer](https://github.com/devblackops/github-action-psscriptanalyzer)
-- [Run tfsec, with reviewdog output on the PR](https://github.com/reviewdog/action-tfsec)
-- [Run static code analysis using JetBrains Qodana](https://github.com/jetbrains/qodana-action) - Scan your Go, Java, Kotlin, PHP, Python, JavaScript, TypeScript, .NET projects.
+- [PowerShell Static Analysis With PSScriptAnalyzer](https://github.com/devblackops/github-action-psscriptanalyzer)
+- [Run Tfsec, With Reviewdog Output on the PR](https://github.com/reviewdog/action-tfsec)
+- [Run Static Code Analysis Using JetBrains Qodana](https://github.com/jetbrains/qodana-action) - Scan your Go, Java, Kotlin, PHP, Python, JavaScript, TypeScript, .NET projects.
 - [Checkov Static Analysis](https://github.com/bridgecrewio/checkov-action) - Runs Checkov against infrastructure-as-code, open source packages, container images, and CI/CD configurations to identify misconfigurations, vulnerabilities, and license compliance issues.
 
 #### Testing
