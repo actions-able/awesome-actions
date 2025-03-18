@@ -23,8 +23,10 @@ jobs:
           - awesome-lint
           - textlint-titlecase
           - textlint-linktitlecase
+
     steps:
       - uses: actions/checkout@v4
+        with:
           # so awesome-lint can check the repo age
           fetch-depth: 0
 
