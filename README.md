@@ -508,7 +508,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Sync Git Repository to a Google Cloud Storage Bucket (As a Static Site for Example)](https://github.com/Nakilon/git-to-gcs)
 - [Cross Platform Chocolatey CLI to Build and Publish Packages](https://github.com/crazy-max/ghaction-chocolatey)
 - [Deploy iOS Pod Library to Cocoapods](https://github.com/michaelhenry/deploy-to-cocoapods-github-action)
-- [GitHub Action for Tencentcloud Serverless](https://github.com/Juliiii/action-scf)
+- [GitHub Action for TencentCloud Serverless](https://github.com/Juliiii/action-scf)
 - [Publish Npm (Pre)Releases](https://github.com/epeli/npm-release/)
 - [Deploy a Static Site to Surge.sh](https://github.com/yavisht/deploy-via-surge.sh-github-action-template)
 - [GitHub Action for GoReleaser, a Release Automation Tool for Go Projects](https://github.com/goreleaser/goreleaser-action)
@@ -538,14 +538,14 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 
 #### Docker
 
-- [Update a Docker Hub repository description from README.md](https://github.com/peter-evans/dockerhub-description)
-- [Publish Docker Images to the GitHub Package Registry (GPR)](https://github.com/machine-learning-apps/gpr-docker-publish)
-- [Update a repository's "Full description" on Docker Hub](https://github.com/mpepping/github-actions/tree/master/docker-hub-metadata)
-- [Build and publish docker images to any registry using Kaniko](https://github.com/outillage/kaniko-action)
-- [Monitor and limit your docker image size](https://github.com/wemake-services/docker-image-size-limit)
+- [Update a Docker Hub Repository Description From README.md](https://github.com/peter-evans/dockerhub-description)
+- [Publish Docker Images to the GitHub Package Registry](https://github.com/machine-learning-apps/gpr-docker-publish)
+- [Update a Repository's "Full Description" on Docker Hub](https://github.com/mpepping/github-actions/tree/master/docker-hub-metadata)
+- [Build and Publish Docker Images to Any Registry Using Kaniko](https://github.com/outillage/kaniko-action)
+- [Monitor and Limit Your Docker Image Size](https://github.com/wemake-services/docker-image-size-limit)
 - [Publish Docker Images to the Amazon Elastic Container Registry (ECR)](https://github.com/appleboy/docker-ecr-action)
-- [Build And Push Your Docker Images Caching Each Stage To Reduce Build Time](https://github.com/whoan/docker-build-with-cache-action)
-- [Set Up Docker Buildx](https://github.com/docker/setup-buildx-action)
+- [Build and Push Your Docker Images Caching Each Stage to Reduce Build Time](https://github.com/whoan/docker-build-with-cache-action)
+- [Set up Docker Buildx](https://github.com/docker/setup-buildx-action)
 - [Convert Branch or Tag Name Into Docker-Compatible Image Tag](https://github.com/ankitvgupta/ref-to-tag-action/)
 - [Update a Container Repository Description From README.md](https://github.com/marketplace/actions/update-container-description-action) - Supported Registries: Docker Hub, Quay, Harbor.
 - [Build and Push Docker Images With Buildx](https://github.com/docker/build-push-action)
@@ -555,28 +555,28 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 
 #### Kubernetes
 
-- [Deploy to any Cloud or Kubernetes Using Pulumi](https://github.com/pulumi/actions)
-- [Deploy to Kubernetes with kubectl](https://github.com/steebchen/kubectl)
+- [Deploy to Any Cloud or Kubernetes Using Pulumi](https://github.com/pulumi/actions)
+- [Deploy to Kubernetes With Kubectl](https://github.com/steebchen/kubectl)
 - [Get Kubeconfig File From Google Kubernetes Engine (GKE)](https://github.com/machine-learning-apps/gke-kubeconfig)
-- [Kustomize Kubernetes Config YAMLs](https://github.com/karancode/kustomize-github-action)
+- [Kustomize Kubernetes Config YAML](https://github.com/karancode/kustomize-github-action)
 - [Create a Kubernetes Cluster for Testing Using Krucible](https://github.com/Krucible/krucible-github-action)
-- [Create a K3s Clusters for Testing Using k3d](https://github.com/AbsaOSS/k3d-action)
+- [Create a k3s Clusters for Testing Using k3d](https://github.com/AbsaOSS/k3d-action)
 
 #### AWS
 
-- [Sync/upload a directory to an AWS S3 bucket](https://github.com/jakejarvis/s3-sync-action)
-- [Deploy Lambda code to an existing function](https://github.com/appleboy/lambda-action)
-- [Sync/Invalidate Files and Send Them to AWS S3 Using s3cmd](https://github.com/ThiagoAnunciacao/s3cmd-sync-action)
+- [Sync/Upload a Directory to an AWS S3 Bucket](https://github.com/jakejarvis/s3-sync-action)
+- [Deploy Lambda Code to an Existing Function](https://github.com/appleboy/lambda-action)
+- [Sync/Invalidate Files and Send Them to AWS S3 Using S3cmd](https://github.com/ThiagoAnunciacao/s3cmd-sync-action)
 - [Deploy Static Site to AWS](https://github.com/onramper/action-deploy-aws-static-site)
 - [Invoke a Lambda Function](https://github.com/gagoar/invoke-aws-lambda)
 - [Deploy a Helm Chart to the EKS](https://github.com/peymanmortazavi/eks-helm-deploy)
-- [CloudFront Invalidator](https://github.com/foxdalas/cloudfront-invalidator) - Invalidates the CloudFront cache for specified paths by finding the CloudFront distribution based on tags.
+- [Cloudfront Invalidator](https://github.com/foxdalas/cloudfront-invalidator) - Invalidates the CloudFront cache for specified paths by finding the CloudFront distribution based on tags.
 - [Interacting With AWS CDK](https://github.com/ScottBrenner/aws-cdk-action) - Enables arbitrary actions for interacting with the AWS Cloud Development Kit via the `cdk` command.
 
 #### Terraform
 
-- [Generate terraform documentation](https://github.com/Dirrk/terraform-docs) - Uses terraform-docs to generate docs for terraform modules.
-- [An example of using Terraform to validate and apply GitHub administration](https://github.com/asgharlabs/github-terraform/tree/master/.github/workflows)
+- [Generate Terraform Documentation](https://github.com/Dirrk/terraform-docs) - Uses terraform-docs to generate docs for terraform modules.
+- [An Example of Using Terraform to Validate and Apply GitHub Administration](https://github.com/asgharlabs/github-terraform/tree/master/.github/workflows)
 - [GitHub Action for Infracost](https://github.com/infracost/actions) - See Cloud Cost Estimates for Terraform in Pull Requests.
 - [Saves the Terraform State File in an Azure Storage Account](https://github.com/ahmedig/terraform-azurerm-backend) - A GitHub Action that helps in using terraform with an Azure backend.
 
@@ -585,21 +585,21 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Use a Jenkinsfile](https://github.com/jonico/jenkinsfile-runner-github-actions)
 - [GitHub Action for Firebase](https://github.com/w9jds/firebase-action)
 - [GitHub Action for Contentful Migration CLI](https://github.com/Shy/contentful-action)
-- [GitHub Actions for Pixela (a-know/pi)](https://github.com/peaceiris/actions-pixela)
+- [GitHub Action for Pixela](https://github.com/peaceiris/actions-pixela) - This Pixela Setup Action can install a-know/pi to a virtual machine of GitHub Actions.
 - [GitHub Action for Google Cloud Platform (GCP)](https://github.com/exelban/gcloud)
-- [Upload files to any OpenStack Swift service provider](https://github.com/iksaku/openstack-swift-action)
-- [GitHub Action for sending Stack Overflow posts to Slack](https://github.com/logankilpatrick/StackOverflowBot)
-- [Assume AWS role](https://github.com/nordcloud/aws-assume-role/)
-- [Generate Custom Response using JSONbin](https://github.com/fabasoad/jsonbin-action)
+- [Upload Files to Any OpenStack Swift Service Provider](https://github.com/iksaku/openstack-swift-action)
+- [GitHub Action for Sending Stack Overflow Posts to Slack](https://github.com/logankilpatrick/StackOverflowBot)
+- [Assume AWS Role](https://github.com/nordcloud/aws-assume-role/)
+- [Generate Custom Response Using JSONBin](https://github.com/fabasoad/jsonbin-action)
 
 ### Frontend Tools
 
-- [Execute Gradle task](https://github.com/MrRamych/gradle-actions)
-- [JS Build Actions](https://github.com/elstudio/actions-js-build) - Run Grunt or Gulp build tasks and commit file changes.
+- [Execute Gradle Task](https://github.com/MrRamych/gradle-actions)
+- [JavaScript Build Actions](https://github.com/elstudio/actions-js-build) - Run Grunt or Gulp build tasks and commit file changes.
 - [GitHub Action for Gatsby CLI](https://github.com/jzweifel/gatsby-cli-github-action)
-- [Runs a WebPageTest audit and prints the results as commit comment](https://github.com/JCofman/webPagetestAction)
-- [GitHub Actions for Hugo extended](https://github.com/peaceiris/actions-hugo)
-- [Generate OG Image](https://github.com/BoyWithSilverWings/generate-og-image) - Generate customisable open graph images from Markdown files.
+- [Runs a WebPageTest Audit and Prints the Results As Commit Comment](https://github.com/JCofman/webPagetestAction)
+- [GitHub Actions for Hugo Extended](https://github.com/peaceiris/actions-hugo)
+- [Generate Open Graph Image](https://github.com/BoyWithSilverWings/generate-og-image) - Generate customisable open graph images from Markdown files.
 - [GitHub Actions for mdBook](https://github.com/peaceiris/actions-mdbook)
 - [Setup Mint](https://github.com/fabasoad/setup-mint-action) - Setup Mint (programming language for writing single page applications).
 - [Gatsby AWS S3 Deployment](https://github.com/jonelantha/gatsby-s3-action) - Deploy Gatsby to S3 (supports CloudFront).
@@ -612,22 +612,22 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Query Experiment Tracking Results From Weights & Biases](https://github.com/machine-learning-apps/wandb-action)
 - [Run Parameterized Jupyter Notebooks](https://github.com/yaananth/run-notebook)
 - [Compile, Deploy and Run Kubeflow Pipeline](https://github.com/NikeNano/kubeflow-github-action)
-- [Automatically Dockerize A Data-Science repository As A Jupyter Server](https://github.com/jupyterhub/repo2docker-action)
+- [Automatically Dockerize a Data-Science Repository As a Jupyter Server](https://github.com/jupyterhub/repo2docker-action)
 - [Azure Machine Learning With GitHub Actions](https://github.com/machine-learning-apps/ml-template-azure)
 
 ### Build
 
-- [run-cmake](https://github.com/lukka/run-cmake) - Multi platform action to build C/C++ software with [CMake](https://cmake.org) and [Ninja](https://ninja-build.org/).
-- [run-vcpkg](https://github.com/lukka/run-vcpkg) - Multi platform action to build and install C/C++ dependencies with [vcpkg](https://github.com/microsoft/vcpkg).
-- [Build Go applications for multiplatform](https://github.com/izumin5210/action-go-crossbuild)
-- [Generate ~/.m2/settings.xml for Maven builds](https://github.com/whelk-io/maven-settings-xml-action)
+- [Run-Cmake](https://github.com/lukka/run-cmake) - Multi platform action to build C/C++ software with [Cmake](https://cmake.org) and [Ninja](https://ninja-build.org/).
+- [Run-Vcpkg](https://github.com/lukka/run-vcpkg) - Multi platform action to build and install C/C++ dependencies with [Vcpkg](https://github.com/microsoft/vcpkg).
+- [Build Go Applications for Multiplatform](https://github.com/izumin5210/action-go-crossbuild)
+- [Generate ~/.m2/Settings.xml for Maven Builds](https://github.com/whelk-io/maven-settings-xml-action)
 - [Run Pascal Script](https://github.com/fabasoad/pascal-action)
 - [Setup Brainfuck](https://github.com/fabasoad/setup-brainfuck-action) - Setup brainfuck interpreter.
 - [Publish Go Binaries to GitHub Release Assets](https://github.com/wangyoucao577/go-release-action)
 - [Setup COBOL](https://github.com/fabasoad/setup-cobol-action)
-- [Check Gradle version](https://github.com/madhead/check-gradle-version) - Keep your Gradle version up to date.
+- [Check Gradle Version](https://github.com/madhead/check-gradle-version) - Keep your Gradle version up to date.
 - [Setup Maven Action](https://github.com/s4u/setup-maven-action) - Complete environment configuration for Maven builds.
-- [Generate APK from Web Assets](https://github.com/darkshredder/web-to-app-action) - Transforms site to Android application.
+- [Generate APK From Web Assets](https://github.com/darkshredder/web-to-app-action) - Transforms site to Android application.
 
 ### Database
 
@@ -636,11 +636,11 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 ### Networking
 
 - [Setup ZeroTier](https://github.com/zerotier/github-action) - Connect your runner to a ZeroTier network.
-- [Connect the internet using Cloudflare Warp](https://github.com/sebst/actions-warp) - Activate WARP tunnel in GitHub Actions (Debian/Ubuntu).
+- [Connect the Internet Using Cloudflare Warp](https://github.com/sebst/actions-warp) - Activate WARP tunnel in GitHub Actions (Debian/Ubuntu).
 
 ### Localization
 
-- [Find and automatically fix typos and grammar issues in your code](https://github.com/sobolevn/misspell-fixer-action)
+- [Find and Automatically Fix Typos and Grammar Issues in Your Code](https://github.com/sobolevn/misspell-fixer-action)
 - [Translation](https://github.com/fabasoad/translation-action) - Translate text from any language to any language.
 - [Issues Translate Action](https://github.com/usthe/issues-translate-action) - The action for translating Non-English issues content to English.
 - [Localazy Upload Docker Action](https://github.com/localazy/upload) - Upload localizable files to the Localazy translation management platform.
@@ -663,19 +663,19 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 
 ## Tutorials
 
-- [Continuous deployment of Next.js app with Up](https://medium.com/@romanenko/simple-ci-for-next-js-projects-with-apex-up-github-actions-6f0b1b9a5400)
-- [Converting Docker-based Actions to JavaScript/TypeScript](https://httgp.com/converting-github-actions-from-docker-to-javascript/)
+- [Continuous Deployment of Next.js App With Up](https://medium.com/@romanenko/simple-ci-for-next-js-projects-with-apex-up-github-actions-6f0b1b9a5400)
+- [Converting Docker-Based Actions to JavaScript/TypeScript](https://httgp.com/converting-github-actions-from-docker-to-javascript/)
 - [GitHub Actions CI for Swift/iOS Projects](https://medium.com/rosberryapps/github-actions-ci-for-swift-projects-c129baceed1a)
-- [Working with GitHub Actions](https://jeffrafter.com/working-with-github-actions)
+- [Working With GitHub Actions](https://jeffrafter.com/working-with-github-actions)
 - [GitHub Actions for Rails Developers](https://www.youtube.com/watch?v=gGUXydw22zw)
 - [GitHub Actions Advent Calendar](https://www.edwardthomson.com/blog/github_actions_advent_calendar.html)
-- [Zero Downtime Laravel Deployments with GitHub Actions](https://atymic.dev/blog/github-actions-laravel-ci-cd/)
+- [Zero Downtime Laravel Deployments With GitHub Actions](https://atymic.dev/blog/github-actions-laravel-ci-cd/)
 - [Building Custom GitHub Actions Pluralsight Course](https://www.pluralsight.com/courses/building-custom-github-actions/)
-- [Continuously Deploying Django to DigitalOcean with Docker and GitHub Actions](https://testdriven.io/blog/deploying-django-to-digitalocean-with-docker-and-github-actions/)
-- [Deploying Self-Hosted GitHub Actions Runners with Docker](https://testdriven.io/blog/github-actions-docker/) - Deploy self-hosted GitHub Actions runners with Docker and Docker Swarm to DigitalOcean.
-- [Setup Auto-scaled self-hosted GitHub Actions Runners on AWS Spot-instances](https://040code.github.io/2020/05/25/scaling-selfhosted-action-runners)
+- [Continuously Deploying Django to DigitalOcean With Docker and GitHub Actions](https://testdriven.io/blog/deploying-django-to-digitalocean-with-docker-and-github-actions/)
+- [Deploying Self-Hosted GitHub Actions Runners With Docker](https://testdriven.io/blog/github-actions-docker/) - Deploy self-hosted GitHub Actions runners with Docker and Docker Swarm to DigitalOcean.
+- [Setup Auto-Scaled Self-Hosted GitHub Actions Runners on AWS Spot-Instances](https://040code.github.io/2020/05/25/scaling-selfhosted-action-runners)
 - [Getting the Gist of GitHub Actions](https://gist.github.com/br3ndonland/f9c753eb27381f97336aa21b8d932be6)
 - [Building GitHub Actions](https://actionsbook.com/)
 - [Docker-Based GitHub Actions in Orphan Branches](https://madhead.me/posts/orphan-action)
 - [Adding Self-Hosted Runners](https://help.github.com/en/actions/hosting-your-own-runners/adding-self-hosted-runners)
-- [Configuring the Self-Hosted Runner Application as a Service](https://help.github.com/en/actions/hosting-your-own-runners/configuring-the-self-hosted-runner-application-as-a-service)
+- [Configuring the Self-Hosted Runner Application As a Service](https://help.github.com/en/actions/hosting-your-own-runners/configuring-the-self-hosted-runner-application-as-a-service)
