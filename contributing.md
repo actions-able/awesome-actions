@@ -2,7 +2,7 @@
 
 Please note that this project is released with a [Contributor Code of Conduct](code-of-conduct.md). By participating in this project you agree to abide by its terms.
 
-If you are new to open source, I've written a [guide for how to contribute](https://css-tricks.com/how-to-contribute-to-an-open-source-project/).
+If you are new to open source, I've written a [Guide for How to Contribute](https://css-tricks.com/how-to-contribute-to-an-open-source-project/).
 
 > The pull request should have a useful title. Pull requests with `Update README.md` as title will be closed. Please carefully read everything in `Adding to this list`.
 
@@ -36,16 +36,17 @@ Thank you for your suggestions!
 
 Sometimes, we will ask you to edit your Pull Request before it is included. This is normally due to spelling errors or because your PR didn't match the awesome-actions list guidelines.
 
-You can also run some [just](https://just.systems) receipe to help you reduce the editing:
+You can also run some [Just](https://just.systems) receipe to help you reduce the editing:
 
 > [!TIP]
 > **prerequisites**
 >
-> - Install the right `just` [package](https://just.systems/man/en/packages.html),
-> - Install the right `node` [package](https://nodejs.org/en/download).
+> - Install the right `just` [Package](https://just.systems/man/en/packages.html),
+> - Install the right `node` [Package](https://nodejs.org/en/download).
 >
 > Than `just configure` to prepare your local machine.
 
 - `just feedback` to run all related linters on your contribution.
+- `just fix` to applied fixes from all related linters on your contribution.
 
 [Here](https://github.com/RichardLitt/knowledge/blob/master/github/amending-a-commit-guide.md) is a write up on how to change a Pull Request, and the different ways you can do that.
