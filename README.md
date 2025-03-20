@@ -212,16 +212,16 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [GitHub Actions for Python Project With Poetry](https://github.com/abatilo/actions-poetry)
 - [GitHub Actions for Python Project With Pyenv](https://github.com/gabrielfalcao/pyenv-action)
 - [GitHub Actions to Compile LaTeX Documents](https://github.com/xu-cheng/latex-action)
-- [Update Maxmind Databases](https://github.com/meetup/maxmind-updater)
+- **/Archived/** [Update Maxmind Databases](https://github.com/meetup/maxmind-updater)
 - [Debug With SSH Over Tmate](https://github.com/mxschmitt/action-tmate) - Debug the Action directly by providing a SSH connection.
 - [Unlock Git-Crypt Files](https://github.com/sliteteam/github-action-git-crypt-unlock)
 - [Golang CGO Cross Compiler](https://github.com/crazy-max/ghaction-xgo)
 - [Run Your Job on Another Architecture: Arm32, Aarch64 and Others](https://github.com/uraimo/run-on-arch-action)
 - [Generate a Table of Contents](https://github.com/technote-space/toc-generator)
 - [Automatically Add Label or Assignee to an Issue](https://github.com/Naturalclar/issue-action)
-- [Action to Send LGTM Reaction As Image or GIF When We Say LGTM](https://github.com/micnncim/action-lgtm-reaction)
+- **/Archived/** [Action to Send LGTM Reaction As Image or GIF When We Say LGTM](https://github.com/micnncim/action-lgtm-reaction)
 - [Generate Build Numbers Across Multiple Scopes](https://github.com/zyborg/gh-action-buildnum)
-- [Publish GitHub Release Artifacts](https://github.com/skx/github-action-publish-binaries)
+- **/Archived/** [Publish GitHub Release Artifacts](https://github.com/skx/github-action-publish-binaries)
 - [Jekyll Diff Action](https://github.com/David-Byrne/jekyll-diff-action) - Diffs the built Jekyll site after a change, and comments the result back to GitHub.
 - [Branch Protection Bot](https://github.com/benjefferies/branch-protection-bot) - Temporarily disable and re-enable "Include administrators" option in branch protection.
 - [Wait for Commit Statuses](https://github.com/WyriHaximus/github-action-wait-for-status) - Wait until all statuses and checks are successful or any of them has failed and set its status output.
@@ -229,7 +229,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Create Milestone](https://github.com/WyriHaximus/github-action-create-milestone) - Create a new open milestone given the title and description.
 - [Close Milestone](https://github.com/WyriHaximus/github-action-close-milestone) - Close the given milestone.
 - [Action to Enforce Branch Naming Rules](https://github.com/deepakputhraya/action-branch-name)
-- [Expose Slug of Some GitHub Variables](https://github.com/marketplace/actions/github-slug)
+- [Expose Slug of Some GitHub Variables](https://github.com/rlespinasse/github-slug-action)
 - [Awesome-Lint As a GitHub Action](https://github.com/max/awesome-lint)
 - [Edit JSON File](https://github.com/deef0000dragon1/json-edit-action)
 - [Build Slate Documentation](https://github.com/Decathlon/slate-builder-action)
@@ -239,10 +239,12 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Apply Templates With Jinja2](https://github.com/cuchi/jinja2-action) - Use the Jinja2 template engine to generate files from templates.
 - [Has Changes](https://github.com/UnicornGlobal/has-changes-action) - Check if there are code changes from previous steps.
 - [Mind Your Language Action](https://github.com/tailaiw/mind-your-language-action) - Detect offensive comments in issues and pull requests, and warn senders.
-- [YAML/JSON/XML Converter](https://github.com/fabasoad/yaml-json-xml-converter-action) - Converts YAML/JSON/XML file formats interchangeably.
+- **/Archived/** [YAML/JSON/XML Converter](https://github.com/fabasoad/yaml-json-xml-converter-action) - Converts YAML/JSON/XML file formats interchangeably.
+  - [Data Format Converter Action](https://github.com/fabasoad/data-format-converter-action)
 - [NSFW Detection](https://github.com/fabasoad/nsfw-detection-action) - Detect NSFW content in committed files.
 - [Has Changed Path](https://github.com/MarceloPrado/has-changed-path) - Conditionally run actions based on changed paths.
-- [Linguist](https://github.com/fabasoad/linguist-action) - Checks a repository and produces information about used languages in output.
+- **/Archived/** [Linguist](https://github.com/fabasoad/linguist-action) - Checks a repository and produces information about used languages in output.
+  - Use [Setup Enry Action](https://github.com/fabasoad/setup-enry-action) instead.
 - [Twilio Voice Call](https://github.com/fabasoad/twilio-voice-call-action/) - Make Twilio voice call with defined text.
 - [Setup Xcode](https://github.com/maxim-lobanov/setup-xcode) - Switch between pre-installed versions of Xcode for macOS images.
 - [Setup Xamarin](https://github.com/maxim-lobanov/setup-xamarin) - Switch between pre-installed versions of Xamarin and Mono for macOS images.
@@ -250,7 +252,8 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Setup Cocoapods](https://github.com/maxim-lobanov/setup-cocoapods) - Setup specific version of Cocoapods.
 - [Public IP](https://github.com/haythem/public-ip) - Queries GitHub Actions runner's public IP address.
 - [GitHub Actions for Lazarus/FPC](https://github.com/gcarreno/setup-lazarus)
-- [Twilio Fax](https://github.com/fabasoad/twilio-fax-action/) - Sends a document by fax using your Twilio account.
+- **/Archived/** [Twilio Fax](https://github.com/fabasoad/twilio-fax-action/) - Sends a document by fax using your Twilio account.
+  - [Twilio sunset programmable fax offering on 2021/12/17](https://www.twilio.com/changelog/programmable-fax-end-life-one-year-notice)
 - [Setup Kubernetes Tools](https://github.com/yokawasa/action-setup-kube-tools) - Install Kubernetes tools (kubectl, kustomize, helm, kubeval, conftest, and yq) on the runner.
 - [Setup Elastic Cloud Control Tool](https://github.com/yokawasa/action-setup-ecctl) - Install a specific version of ecctl on the runner.
 - [PowerShell Script](https://github.com/Amadevus/pwsh-script) - Run PowerShell scripts with workflow contexts (for example `$github.token`) and cmdlets, return value => action output.
@@ -258,9 +261,10 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Import a GPG Key](https://github.com/crazy-max/ghaction-import-gpg)
 - [Compress With UPX](https://github.com/crazy-max/ghaction-upx) - The Ultimate Packer for eXecutables.
 - [Pull the New Go Module Version Into the Proxy Cache](https://github.com/andrewslotin/go-proxy-pull-action) - Ensures the latest version of your Go module is in the proxy cache. Also updates the pkg.go.dev documentation upon release.
-- [Delete Run Artifacts](https://github.com/marketplace/actions/delete-run-artifacts) - Deletes all artifacts at the end of a workflow run.
+- [Delete Run Artifacts](https://github.com/christian-korneck/delete-run-artifacts-action) - Deletes all artifacts at the end of a workflow run.
 - [GitHub Environment Variables Action](https://github.com/FranzDiebold/github-env-vars-action) - Expose environment variables such as the branch/tag name, repository slug, and ref slug.
-- [GitHub Action Locks](https://github.com/abatilo/github-action-locks/blob/master/README.md) - Guarantee atomic execution of your GitHub Action workflows.
+- **/Archived/** [GitHub Action Locks](https://github.com/abatilo/github-action-locks) - Guarantee atomic execution of your GitHub Action workflows.
+  - [GitHub now natively supports this feature](https://github.blog/changelog/2021-04-19-github-actions-limit-workflow-run-or-job-concurrency/)
 - [Paths Filter](https://github.com/dorny/paths-filter) - Conditionally run actions based on files modified by PR, feature branch or pushed commits.
 - [Minisauras](https://github.com/TeamTigers/minisauras) - Pulls all the JavaScript and CSS files from your base branch, minify them and creates a pull-request with a new branch.
 - [Site to GIF](https://github.com/PabloLec/website-to-gif) - Turn any web page into a GIF to display on your README, docs, etc.
