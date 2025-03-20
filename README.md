@@ -124,6 +124,8 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Setup Julia](https://github.com/julia-actions/setup-julia) - Sets up a Julia environment for use in actions by downloading a specified version of Julia and adding it to PATH.
 - [Setup OCaml](https://github.com/ocaml/setup-ocaml) - Set up an OCaml and opam environment in GitHub Actions and add to PATH.
 - [Setup Wa Language](https://github.com/wa-lang/setup-wa) - Setup Wa Language Action.
+- [GitHub Actions for Deno](https://github.com/denoland/setup-deno)
+- [GitHub Actions for PHP](https://github.com/shivammathur/setup-php)
 
 ### GitHub Tools and Management
 
@@ -136,12 +138,15 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [GitHub Project Automation+](https://github.com/alex-page/github-project-automation-plus) - Automate GitHub Project cards with any webhook event.
 - [Run GitHub Actions Locally With a Web Interface](https://github.com/phishy/wflow)
 - [Run GitHub Actions Locally in Terminal](https://github.com/nektos/act)
-- [Build and Publish Android Debug APK](https://github.com/ShaunLWM/action-release-debugapk)
-- [Generate Sequential Build Numbers for GitHub Actions](https://github.com/einaregilsson/build-number)
+- **/Archived/** [Build and Publish Android Debug APK](https://github.com/ShaunLWM/action-release-debugapk)
+- **/Archived/** [Generate Sequential Build Numbers for GitHub Actions](https://github.com/einaregilsson/build-number)
+  - Maintenance continued by [Build Tag Number Action](https://github.com/onyxmueller/build-tag-number),
+  - GitHub has introduced **GITHUB_RUN_ID** and **GITHUB_RUN_NUMBER** variables which are unique numbers for each workflow run.
 - [Push Git Changes to GitHub Repository Without Authentication Difficulties](https://github.com/ad-m/github-push-action)
 - [Generate Release Notes Based on Your Events](https://github.com/Decathlon/release-notes-generator-action)
 - [Create a GitHub Wiki Page Based on the Provided Markdown File](https://github.com/Decathlon/wiki-page-creator-action)
-- [Label Your Pull Requests Auto-Magically (Using Committed Files)](https://github.com/Decathlon/pull-request-labeler-action)
+- **/Archived/** [Label Your Pull Requests Auto-Magically (Using Committed Files)](https://github.com/Decathlon/pull-request-labeler-action)
+  - Use [GitHub Action Labeler](https://github.com/actions/labeler) instead.
 - [Add Label to Your Pull Requests Based on the Author Team Name](https://github.com/JulienKode/team-labeler-action)
 - [Get a List of File Changes With PR/Push](https://github.com/trilom/file-changes-action)
 - [Use Private Actions in Any Workflow](https://github.com/InVisionApp/private-action-loader)
@@ -152,16 +157,17 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Generate Release Notes Based on Git References](https://github.com/metcalfc/changelog-generator)
 - [Enforce Policies on GitHub Repositories and Commits](https://github.com/talos-systems/conform)
 - [Auto Label Issue Based on Issue Description](https://github.com/Renato66/auto-label)
-- [Update Configured GitHub Actions to the Latest Versions](https://github.com/fabasoad/ghacu)
+- **/Archived/** [Update Configured GitHub Actions to the Latest Versions](https://github.com/fabasoad/ghacu)
+  - Use [Dependabot CLI](https://docs.github.com/fr/code-security/dependabot/dependabot-security-updates/configuring-dependabot-security-updates) instead.
 - [Create Issue Branch](https://github.com/robvanderleek/create-issue-branch)
 - [Remove Old Artifacts](https://github.com/c-hive/gha-remove-artifacts)
 - [Expose Git Commit Data As Environment Variables](https://github.com/rlespinasse/git-commit-data-action)
-- [Sync Defined Files/Binaries to Wiki or External Repositories](https://github.com/kai-tub/external-repo-sync-action)
+- **/Archived/** [Sync Defined Files/Binaries to Wiki or External Repositories](https://github.com/kai-tub/external-repo-sync-action)
 - [Create/Update/Delete a GitHub Wiki Page Based on Any File](https://github.com/Andrew-Chen-Wang/github-wiki-action)
 - [Prow GitHub Actions](https://github.com/jpmcb/prow-github-actions) - Automation of policy enforcement, chat-ops, and automatic PR merging.
 - [Check GitHub Status in Your Workflow](https://github.com/crazy-max/ghaction-github-status)
 - [Manage Labels on GitHub (Create/Rename/Update/Delete) As Code](https://github.com/crazy-max/ghaction-github-labeler)
-- [Continuous Distribution of Funding to Your Project Contributors and Dependencies](https://github.com/protontypes/libreselery)
+- **/Archived/** [Continuous Distribution of Funding to Your Project Contributors and Dependencies](https://github.com/protontypes/libreselery)
 - [Herald Rules for GitHub: Add Subscribers, Assignees, Labels, and More to Your PR](https://github.com/gagoar/use-herald-action)
 - [Code of Conduct Compliance Through Sentiments Analysis](https://github.com/derberg/code-of-conduct-sentiment-analysis-github-action) - Analyze sentiments in issues and PRs to identify negative content that may violate your code of conduct.
 - [GitHub Codeowners Validator](https://github.com/mszostok/codeowners-validator) - Ensures the correctness of your GitHub CODEOWNERS file. It supports public and private GitHub repositories and also GitHub Enterprise installations.
@@ -181,15 +187,14 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Use HashiCorp's Terraform](https://github.com/hashicorp/setup-terraform)
 - [GitHub Actions for Yarn 1](https://github.com/Borales/actions-yarn)
 - [GitHub Actions for Yarn 2](https://github.com/sergioramos/yarn-actions)
-- [GitHub Actions for Golang](https://github.com/cedrickring/golang-action)
+- **/Archived/** [GitHub Actions for Golang](https://github.com/cedrickring/golang-action)
+  - Use [Official GitHub Action Setup Go](https://github.com/actions/setup-go) instead.
 - [GitHub Actions for WordPress](https://github.com/10up/actions-wordpress/)
 - [GitHub Actions for Composer](https://github.com/MilesChou/composer-action)
 - [GitHub Actions for Flutter](https://github.com/subosito/flutter-action)
-- [GitHub Actions for PHP](https://github.com/shivammathur/setup-php)
-- [GitHub Actions for Rust](https://github.com/actions-rs)
+- **/Archived/** [GitHub Actions for Rust](https://github.com/actions-rs)
 - [GitHub Actions for Android](https://github.com/Malinskiy/action-android)
 - [GitHub Actions for Logtalk and Prolog](https://github.com/logtalk-actions)
-- [GitHub Actions for Deno](https://github.com/denolib/setup-deno)
 - [GitHub Actions for Unity](https://github.com/webbertakken/unity-actions)
 - [Octions - GitHub Actions for GitHub REST API](https://github.com/maxkomarychev/octions)
 - [GitHub Actions for AWS](https://github.com/clowdhaus/aws-github-actions)
@@ -197,7 +202,6 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Actions Hub](https://github.com/actionshub)
 - [GitHub Actions for Perl](https://github.com/perl-actions)
 - [GitHub Actions by Red Hat](https://github.com/redhat-actions)
-- [GitHub Actions for Common Lisp](https://40ants.com/ci/)
 - [GitHub Actions for Ballerina](https://github.com/ballerina-platform/ballerina-action)
 - [GitHub Actions for Gradle Builds](https://github.com/gradle/actions)
 
@@ -276,6 +280,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [README Update Actions](https://github.com/imskr/readme-update-actions) - Pulls latest blog posts and update you profile's README dynamically.
 - [GitHub Stats Card](https://github.com/datarootsio/github-stats-card) - A minimal but inclusive GitHub stats badge.
 - [Annotation Previewer](https://github.com/xt0rted/annotation-previewer) - A previewer for GitHub Actions annotation commands.
+- [Generate GitHub Actions for Common Lisp projects](https://40ants.com/ci/)
 
 #### Environments
 
