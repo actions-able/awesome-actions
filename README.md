@@ -408,7 +408,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 
 ### Monitoring
 
-- [Audit a Web Page With Google Chrome's Lighthouse Tests](https://github.com/jakejarvis/lighthouse-action)
+- **/Archived/** [Audit a Web Page With Google Chrome's Lighthouse Tests](https://github.com/jakejarvis/lighthouse-action)
 - [Runs Lighthouse and Posts Results to PRs and Slack](https://github.com/foo-software/lighthouse-check-action)
 - [Run Lighthouse in CI Using GitHub Actions](https://github.com/treosh/lighthouse-ci-action)
 - [Continuous Benchmarking and Benchmark Visualization for Go](https://github.com/bobheadxi/gobenchdata)
