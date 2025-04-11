@@ -421,7 +421,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 
 - [Set PR Reviewers Based on Assignees](https://github.com/pullreminders/assignee-to-reviewer-action)
 - [Open or Update PR on Branch Push (With Branch Selection)](https://github.com/vsoch/pull-request-action)
-- [Automatically Rebase a PR](https://github.com/cirrus-actions/rebase)
+- **/Archived/** [Automatically Rebase a PR](https://github.com/cirrus-actions/rebase)
 - [Label PR Once It Has a Specified Number of Approvals](https://github.com/pullreminders/label-when-approved-action)
 - [Add Labels to a PR Based on Matched File Patterns](https://github.com/banyan/auto-label)
 - [Auto-Approve PRs](https://github.com/hmarr/auto-approve-action)
@@ -432,16 +432,16 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Verify That PRs Contain a Ticket Reference](https://github.com/vijaykramesh/pr-lint-action)
 - [Create a PR for Changes to Your Repository in the Actions Workspace](https://github.com/peter-evans/create-pull-request)
 - [Lint a PR](https://github.com/seferov/pr-lint-action)
-- [ChatOps for PRs](https://github.com/machine-learning-apps/actions-chatops)
+- **/Archived/** [ChatOps for PRs](https://github.com/machine-learning-apps/actions-chatops)
 - [Prefix Title and Body of a PR Based on Text Extracted From Branch Name](https://github.com/tzkhan/pr-update-action)
 - [Block Autosquash Commits](https://github.com/xt0rted/block-autosquash-commits-action)
 - [Automatically Bump and Tag on Merge](https://github.com/anothrNick/github-tag-action)
-- [Automatically Update PRs With Outdated Checks and Squash and Merge the Ones Matching All Branch Protections](https://github.com/tibdex/autosquash)
+- **/Archived/** [Automatically Update PRs With Outdated Checks and Squash and Merge the Ones Matching All Branch Protections](https://github.com/tibdex/autosquash)
 - [Merge Pal - Automatically Update and Merge PRs](https://github.com/maxkomarychev/merge-pal-action)
 - [Enforce Naming Convention on Pull Request Title](https://github.com/deepakputhraya/action-pr-title)
-- [Pull Request Stuck Notifier](https://github.com/jrylan/github-action-stuck-pr-notifier)
 - [Lint Pull Request Name With Commitlint (Awesome If You Squash Merge !)](https://github.com/JulienKode/pull-request-name-linter-action)
-- [Block PR Merges When Checks for Target Branches Are Failing](https://github.com/cirrus-actions/branch-guard)
+- **/Archived/** [Block PR Merges When Checks for Target Branches Are Failing](https://github.com/cirrus-actions/branch-guard)
+  - Use [GitHub App to Introduce Submit Queue](https://github.com/cirruslabs/gh-submit-queue) instead.
 - [Get Generated Static Site Screenshots Updated by Pull Request](https://github.com/ssowonny/diff-pages-action)
 - [Add Labels Depending If the Pull Request Still in Progress](https://github.com/AlbertHernandez/working-label-action)
 - [Ticket Check Action](https://github.com/neofinancial/ticket-check-action) - Automatically add a ticket or issue number to the start of all Pull Request titles.
@@ -449,7 +449,6 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Pull Request Landmines](https://github.com/tylermurry/github-pr-landmine)
 - [Annotate a GitHub Pull Request Based on a Checkstyle XML-Report](https://github.com/staabm/annotate-pull-request-from-checkstyle)
 - [Pull Request Stats](https://github.com/flowwer-dev/pull-request-stats) - Print relevant stats about reviewers.
-- [Pull Request Description Enforcer](https://github.com/derkinderfietsen/pr-description-enforcer) - Enforces description on pull requests.
 - [Auto-Approve Pull Requests](https://github.com/omio-labs/pr-reviewer-bot) - Auto-approves PRs if they match your custom criteria.
 - [Process Your Issues and Pull Requests That Didn't Have Recent Updates](https://github.com/Sonia-corporation/stale)
 - [Mention Completed Pull Requests in Draft Release](https://github.com/dnbkr/clog)
