@@ -342,15 +342,15 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 #### Linting
 
 - [PHP Coding Standards Fixer Action](https://github.com/OskarStark/php-cs-fixer-ga)
-- [Runs Hadolint Against a Dockerfile Within a Repository](https://github.com/burdzwastaken/hadolint-action)
+- [Runs Hadolint Against a Dockerfile Within a Repository](https://github.com/hadolint/hadolint-action)
 - [Run ESLint, With Reviewdog Output on the PR](https://github.com/reviewdog/action-eslint)
-- [JavaScript-Based Linter for *.workflow Files](https://github.com/OmarTawfik/github-actions-js)
+- **/Archived/** [JavaScript-Based Linter for *.workflow Files](https://github.com/OmarTawfik/github-actions-js)
 - [Lint Terraform Files Using Tflint, With Reviewdog Output on the PR](https://github.com/reviewdog/action-tflint)
 - [Autopep8: Automatically Formats Python Code to Conform to the Pep 8 Style Guide](https://github.com/peter-evans/autopep8)
-- [Run `composer Normalize` to Ensure Your PHP Project Has a Normalized `composer.json`](https://github.com/ergebnis/composer-normalize-action)
+- **/Archived/** [Run `composer Normalize` to Ensure Your PHP Project Has a Normalized `composer.json`](https://github.com/ergebnis/composer-normalize-action)
 - [Run `leanpackage Validator` to Ensure Your Package Has Only the Required `runtime` Artifacts](https://github.com/raphaelstolt/lean-package-validator-action)
 - [Run Go Lint Checks on PR Event](https://github.com/ArangoGutierrez/GoLinty-Action)
-- [Node.js - Automatically Run the `format` and/Or `lint` Script Used by the Package](https://github.com/MarvinJWendt/run-node-formatter)
+- **/Archived/** [Node.js - Automatically Run the `format` and/Or `lint` Script Used by the Package](https://github.com/MarvinJWendt/run-node-formatter)
 - [Stylelinter - GitHub Action That Runs Stylelint](https://github.com/exelban/stylelint)
 - [Run Stylelint, With Reviewdog Output on the PR](https://github.com/reviewdog/action-stylelint)
 - [Pycodestyle Action - A GitHub Action That Leaves a Comment on Your PR With Pycodestyle (Autopep8) Feedback](https://github.com/ankitvgupta/pycodestyle-action)
@@ -365,13 +365,13 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Run Dotenv-Linter - Lints Your .env Files Like a Charm, With Optional Reviewdog Output on the PR](https://github.com/wemake-services/dotenv-linter)
 - [Run Dotenv-Linter, With Reviewdog Output on the PR](https://github.com/mgrachev/action-dotenv-linter)
 - [Show and Autofix Linting Errors for Many Programming Languages](https://github.com/samuelmeuli/lint-action)
-- [PHP_CodeSniffer With Annotations](https://github.com/chekalsky/phpcs-action)
+- **/Archived/** [PHP_CodeSniffer With Annotations](https://github.com/chekalsky/phpcs-action)
 - [Linter for Markdown (With Presets)](https://github.com/avto-dev/markdown-lint)
 - [Stylelint Problem Matcher to Create Annotations](https://github.com/xt0rted/stylelint-problem-matcher)
 - [Run SQLCheck on the PR to Identifies Antipatterns in SQL Queries](https://github.com/yokawasa/action-sqlcheck)
 - [Validate Fastlane Supply Metadata Against the Play Store Guidelines](https://github.com/ashutoshgngwr/validate-fastlane-supply-metadata)
 - [Run Golint to Lint Your Golang Code](https://github.com/Jerome1337/golint-action)
-- [Super Linter](https://github.com/github/super-linter)
+- [Super Linter](https://github.com/super-linter/super-linter)
 - [Check GoImports Errors With Files and Folders Filter Options](https://github.com/DarthBenro008/goimports-check-action)
 - [Check Your Code With diKTat](https://github.com/saveourtool/benedikt) - Run `saveourtool/diktat` to lint your Kotlin code, with SARIF output on the Pull-Request.
 - [Install and Run a Syntax-Aware Linter for Prose](https://github.com/errata-ai/vale-action)
@@ -379,7 +379,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 #### Security
 
 - [A Vulnerability Scanner for Your Docker Images](https://github.com/phonito/phonito-scanner-action)
-- [Automatically Approve and Merge Dependabot Updates](https://github.com/ridedott/dependabot-auto-merge-action)
+- [Automatically Approve and Merge Dependabot Updates](https://github.com/ridedott/merge-me-action)
 - [Run Dlint Security Linter on Your Python Code](https://github.com/xen0l/dlint-check)
 - [AWS Secrets Manager Actions](https://github.com/say8425/aws-secrets-manager-actions) - Define AWS Secrets Manager secrets to environment values.
 - [Linting Your AWS IAM Policy Documents for Correctness and Security Issues](https://github.com/xen0l/iam-lint)
@@ -387,7 +387,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Secrets Sync Action](https://github.com/google/secrets-sync-action) - Action syncs secrets across multiple repositories.
 - [Snyk Test Action](https://github.com/snyk/actions)
 - [Manage Your GitHub Actions Secrets With a Simple CLI](https://github.com/unfor19/githubsecrets)
-- [SecretHub](https://github.com/secrethub/actions) - Have a single source of truth for your secrets and load them into GitHub Actions on demand.
+- **/Archived/** [SecretHub](https://github.com/secrethub/actions) - Have a single source of truth for your secrets and load them into GitHub Actions on demand.
 - [Automatically Approve and Merge Npm Dependency Updates (Provider Agnostic)](https://github.com/tjenkinson/gh-action-auto-merge-dependency-updates)
 - [GitGuardian Shield Against Exposed Credentials in Your Commits](https://github.com/GitGuardian/ggshield-action)
 - [Harden Runner](https://github.com/step-security/harden-runner) - Security agent for the GitHub-hosted runner to monitor the build process and prevent exfiltration of credentials.
