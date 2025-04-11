@@ -465,9 +465,9 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Build a Jekyll Site—With Custom Jekyll Plugins & Build Scripts—and Deploy It Back to the GitHub Pages Branch](https://github.com/BryanSchuetz/jekyll-deploy-gh-pages)
 - [Google Dataset Search Metadata](https://www.github.com/openschemas/extractors/) - And other schema.org extractors to make datasets discoverable from GitHub pages.
 - [GitHub Actions for Deploying to GitHub Pages With Static Site Generators](https://github.com/peaceiris/actions-gh-pages)
-- [GitHub Action for Hexo](https://github.com/heowc/action-hexo)
+- **/Archived/** [GitHub Action for Hexo](https://github.com/heowc/action-hexo)
 - [Deploy Google Analytics Stats to GitHub Pages](https://github.com/cristianpb/analytics-google)
-- [A Jupyter Notebook Blogging Platform Powered by GitHub Actions, Pages and Jekyll](https://github.com/fastai/fastpages)
+- **/Archived/** [A Jupyter Notebook Blogging Platform Powered by GitHub Actions, Pages and Jekyll](https://github.com/fastai/fastpages)
 - [Deploy a Static Site to GitHub Pages](https://github.com/appleboy/gh-pages-action) - Deploy to custom directory and ignore folder/file.
 - [Deploy to GitHub Pages With Advanced Settings](https://github.com/crazy-max/ghaction-github-pages)
 
@@ -479,7 +479,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Send an SMS From GitHub Actions Using Clockworksms](https://github.com/bharathvaj1995/clockwork-sms-action)
 - [Send a Telegram Message](https://github.com/appleboy/telegram-action)
 - [Send a File or Text Message to Discord (Custom Define Color, Username or Avatar)](https://github.com/appleboy/discord-action)
-- [Collaborate on Tweets Using Pull Requests](https://github.com/gr2m/twitter-together)
+- [Collaborate on Tweets Using Pull Requests](https://github.com/twitter-together/action)
 - [Send a Push Notification Via Push by Techulus](https://github.com/techulus/push-github-action)
 - [Send Email With SendGrid](https://github.com/peter-evans/sendgrid-action)
 - [Send a Push Notification Via Join](https://github.com/ShaunLWM/action-join)
@@ -593,19 +593,19 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 
 ### External Services
 
-- [Use a Jenkinsfile](https://github.com/jonico/jenkinsfile-runner-github-actions)
+- [Use a Jenkinsfile (POC)](https://github.com/jonico/jenkinsfile-runner-github-actions)
 - [GitHub Action for Firebase](https://github.com/w9jds/firebase-action)
-- [GitHub Action for Contentful Migration CLI](https://github.com/Shy/contentful-action)
-- [GitHub Action for Pixela](https://github.com/peaceiris/actions-pixela) - This Pixela Setup Action can install a-know/pi to a virtual machine of GitHub Actions.
+- [GitHub Action for Contentful Migration CLI](https://github.com/contentful-userland/contentful-action)
+- **/Archived/** [GitHub Action for Pixela](https://github.com/peaceiris/actions-pixela) - This Pixela Setup Action can install a-know/pi to a virtual machine of GitHub Actions.
 - [GitHub Action for Google Cloud Platform (GCP)](https://github.com/exelban/gcloud)
-- [Upload Files to Any OpenStack Swift Service Provider](https://github.com/iksaku/openstack-swift-action)
+- **/Archived/** [Upload Files to Any OpenStack Swift Service Provider](https://github.com/iksaku/openstack-swift-action)
 - [GitHub Action for Sending Stack Overflow Posts to Slack](https://github.com/logankilpatrick/StackOverflowBot)
 - [Assume AWS Role](https://github.com/nordcloud/aws-assume-role/)
 - [Generate Custom Response Using JSONBin](https://github.com/fabasoad/jsonbin-action)
 
 ### Frontend Tools
 
-- [Execute Gradle Task](https://github.com/MrRamych/gradle-actions)
+- **/Archived/** [Execute Gradle Task](https://github.com/OrangeLabsMoe/gradle-actions)
 - [JavaScript Build Actions](https://github.com/elstudio/actions-js-build) - Run Grunt or Gulp build tasks and commit file changes.
 - [GitHub Action for Gatsby CLI](https://github.com/jzweifel/gatsby-cli-github-action)
 - [Runs a WebPageTest Audit and Prints the Results As Commit Comment](https://github.com/JCofman/webPagetestAction)
