@@ -618,20 +618,20 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 
 ### Machine Learning Ops
 
-- [Submitting Argo Workflows (Cloud Agnostic)](https://github.com/machine-learning-apps/actions-argo)
-- [Submitting Argo Workflows to GKE](https://github.com/machine-learning-apps/gke-argo)
-- [Query Experiment Tracking Results From Weights & Biases](https://github.com/machine-learning-apps/wandb-action)
+- **/Archived/** [Submitting Argo Workflows (Cloud Agnostic)](https://github.com/machine-learning-apps/actions-argo)
+- **/Archived/** [Submitting Argo Workflows to GKE](https://github.com/machine-learning-apps/gke-argo)
+- **/Archived/** [Query Experiment Tracking Results From Weights & Biases](https://github.com/machine-learning-apps/wandb-action)
 - [Run Parameterized Jupyter Notebooks](https://github.com/yaananth/run-notebook)
 - [Compile, Deploy and Run Kubeflow Pipeline](https://github.com/NikeNano/kubeflow-github-action)
 - [Automatically Dockerize a Data-Science Repository As a Jupyter Server](https://github.com/jupyterhub/repo2docker-action)
-- [Azure Machine Learning With GitHub Actions](https://github.com/machine-learning-apps/ml-template-azure)
+- **/Archived/** [Azure Machine Learning With GitHub Actions](https://github.com/machine-learning-apps/ml-template-azure)
 
 ### Build
 
 - [Run-Cmake](https://github.com/lukka/run-cmake) - Multi platform action to build C/C++ software with [Cmake](https://cmake.org) and [Ninja](https://ninja-build.org/).
 - [Run-Vcpkg](https://github.com/lukka/run-vcpkg) - Multi platform action to build and install C/C++ dependencies with [Vcpkg](https://github.com/microsoft/vcpkg).
 - [Build Go Applications for Multiplatform](https://github.com/izumin5210/action-go-crossbuild)
-- [Generate ~/.m2/Settings.xml for Maven Builds](https://github.com/whelk-io/maven-settings-xml-action)
+- **/Archived/** [Generate ~/.m2/Settings.xml for Maven Builds](https://github.com/whelk-io/maven-settings-xml-action)
 - [Run Pascal Script](https://github.com/fabasoad/pascal-action)
 - [Setup Brainfuck](https://github.com/fabasoad/setup-brainfuck-action) - Setup brainfuck interpreter.
 - [Publish Go Binaries to GitHub Release Assets](https://github.com/wangyoucao577/go-release-action)
@@ -642,7 +642,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 
 ### Database
 
-- [Setup Cassandra Schema](https://github.com/fabasoad/setup-cassandra-action) - Running scripts from the provided folder on top of Cassandra cluster.
+- **/Archived/** [Setup Cassandra Schema](https://github.com/fabasoad/setup-cassandra-action) - Running scripts from the provided folder on top of Cassandra cluster.
 
 ### Networking
 
