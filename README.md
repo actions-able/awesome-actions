@@ -660,12 +660,13 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 ### Fun
 
 - [Add Equivalent of a Like Button in Your README.md](https://github.com/ariary/Readme-Like-Button) - Visualize community approval on some part of your README (can be used as a poll).
-- [Oh My GitHub Circles](https://github.com/hooopo/oh-my-github-circles) - GitHub User Circle Generator Using GitHub Actions.
+- **/Archived/** [Oh My GitHub Circles](https://github.com/hooopo/oh-my-github-circles) - GitHub User Circle Generator Using GitHub Actions.
 
 ### Runners
 
 - [On-Demand Self-Hosted AWS EC2 Runner](https://github.com/machulav/ec2-github-runner)
-- [GitHub Actions Self-Hosted Runners Provisioning](https://github.com/samber/github-actions-runner)
+- **/Archived/** [GitHub Actions Self-Hosted Runners Provisioning](https://github.com/samber/github-actions-runner)
+  - Use [Docker Github Actions Runner](https://github.com/myoung34/docker-github-actions-runner) instead.
 
 ### Cheat Sheet
 
