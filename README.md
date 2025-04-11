@@ -299,8 +299,10 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 
 - [Install Npm Dependencies With Caching](https://github.com/bahmutov/npm-install)
 - [Highlight New Npm Dependencies](https://github.com/hiwelo/new-dependencies-action) - Comments on pull requests newly added npm dependencies information.
-- [Cache Npm Dependencies](https://github.com/c-hive/gha-npm-cache)
-- [Cache Yarn Dependencies](https://github.com/c-hive/gha-yarn-cache)
+- **/Archived/** [Cache Npm Dependencies](https://github.com/c-hive/gha-npm-cache)
+  - Supported by [Actions/Setup-Node: Node.js](https://github.com/actions/setup-node).
+- **/Archived/** [Cache Yarn Dependencies](https://github.com/c-hive/gha-yarn-cache)
+  - Supported by [Actions/Setup-Node: Node.js](https://github.com/actions/setup-node).
 - [Cache Npm/Yarn/Composer/Etc for GHES Self-Hosted Docker](https://github.com/kevincobain2000/action-cache-http) - Action for caching dependencies on GitHub Enterprise via HTTP. Useful for self hosted runners.
 
 #### Semantic Versioning
