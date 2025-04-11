@@ -325,15 +325,15 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 
 #### Testing
 
-- [Run Tests Through Puppeteer, the Headless Chrome Node API](https://github.com/ianwalter/puppeteer)
+- **/Archived/** [Run Tests Through Puppeteer, the Headless Chrome Node API](https://github.com/ianwalter/puppeteer)
 - [xUnit Slack Reporter: Sends Summary of Tests From xUnit Reports to a Slack Channel](https://github.com/ivanklee86/xunit-slack-reporter)
 - [Run Codeception Tests](https://github.com/joelwmale/codeception-action)
-- [Run TestCafe Tests](https://github.com/DevExpress/testcafe-action)
+- **/Archived/** [Run TestCafe Tests](https://github.com/DevExpress/testcafe-action)
 - [Run Unity Tests](https://github.com/webbertakken/unity-test-runner)
 - [Run Cypress End-To-End Tests](https://github.com/cypress-io/github-action)
 - [Test Ansible Roles With Molecule](https://github.com/robertdebock/molecule-action)
 - [Run Performance Testing With Artillery.io](https://github.com/kenju/github-actions-artillery)
-- [Detect Flaky Tests With BuildPulse](https://github.com/Workshop64/buildpulse-action)
+- [Detect Flaky Tests With BuildPulse](https://github.com/buildpulse/buildpulse-action)
 - [Display Inline Code Annotations for Jest Tests](https://github.com/IgnusG/jest-report-action)
 - [Run Julia Tests](https://github.com/julia-actions/julia-runtest)
 - [Test Ansible Collections](https://github.com/ansible-community/ansible-test-gh-action)
