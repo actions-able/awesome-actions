@@ -457,6 +457,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Check Bundlephobia](https://github.com/carlesnunez/check-my-bundlephobia) - Comments new and modified package size according to bundlephobia.io site and rejects PR on threshold surpassed.
 - [Workflow Telemetry Action](https://github.com/runforesight/workflow-telemetry-action) - Tracks and monitors the resource metrics and process activities of your GitHub Action workflow runs.
 - [Test URLs in Markdown Files and Open Issues for Problems](https://github.com/caltechlibrary/baler)
+- [Optimize Your GitHub Actions With Insightful Analysis Using CICube](https:/cicube.io)
 
 <!--lint disable no-undefined-references-->
 > [!NOTE]
