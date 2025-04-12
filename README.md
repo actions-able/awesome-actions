@@ -173,7 +173,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [File Storage Action](https://github.com/moonrailgun/branch-filestorage-action) - Make GitHub repo's branch as file storage. Useful as a filedb persistence scheme.
 
 <!--lint disable no-undefined-references-->
-> [!WARNING]
+> [!NOTE]
 > The following projects are **archived** on GitHub:
 >
 > - [Build and Publish Android Debug APK](https://github.com/ShaunLWM/action-release-debugapk)
@@ -209,7 +209,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [GitHub Actions for Gradle Builds](https://github.com/gradle/actions)
 
 <!--lint disable no-undefined-references-->
-> [!WARNING]
+> [!NOTE]
 > The following projects are **archived** on GitHub:
 >
 > - [GitHub Actions for Golang](https://github.com/cedrickring/golang-action)
@@ -289,7 +289,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Generate GitHub Actions for Common Lisp Projects](https://40ants.com/ci/)
 
 <!--lint disable no-undefined-references-->
-> [!WARNING]
+> [!NOTE]
 > The following projects are **archived** on GitHub:
 >
 > - [Update Maxmind Databases](https://github.com/meetup/maxmind-updater)
@@ -320,7 +320,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Cache Npm/Yarn/Composer/Etc for GHES Self-Hosted Docker](https://github.com/kevincobain2000/action-cache-http) - Action for caching dependencies on GitHub Enterprise via HTTP. Useful for self hosted runners.
 
 <!--lint disable no-undefined-references-->
-> [!WARNING]
+> [!NOTE]
 > The following projects are **archived** on GitHub:
 >
 > - [Cache Npm Dependencies](https://github.com/c-hive/gha-npm-cache)
@@ -362,7 +362,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Display Report From the Test Results Directly in GitHub](https://github.com/dorny/test-reporter)
 
 <!--lint disable no-undefined-references-->
-> [!WARNING]
+> [!NOTE]
 > The following projects are **archived** on GitHub:
 >
 > - [Run Tests Through Puppeteer, the Headless Chrome Node API](https://github.com/ianwalter/puppeteer)
@@ -403,7 +403,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Install and Run a Syntax-Aware Linter for Prose](https://github.com/errata-ai/vale-action)
 
 <!--lint disable no-undefined-references-->
-> [!WARNING]
+> [!NOTE]
 > The following projects are **archived** on GitHub:
 >
 > - [JavaScript-Based Linter for *.workflow Files](https://github.com/OmarTawfik/github-actions-js)
@@ -428,7 +428,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Harden Runner](https://github.com/step-security/harden-runner) - Security agent for the GitHub-hosted runner to monitor the build process and prevent exfiltration of credentials.
 
 <!--lint disable no-undefined-references-->
-> [!WARNING]
+> [!NOTE]
 > The following projects are **archived** on GitHub:
 >
 > - [SecretHub](https://github.com/secrethub/actions) - Have a single source of truth for your secrets and load them into GitHub Actions on demand.
@@ -459,7 +459,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Test URLs in Markdown Files and Open Issues for Problems](https://github.com/caltechlibrary/baler)
 
 <!--lint disable no-undefined-references-->
-> [!WARNING]
+> [!NOTE]
 > The following projects are **archived** on GitHub:
 >
 > - [Audit a Web Page With Google Chrome's Lighthouse Tests](https://github.com/jakejarvis/lighthouse-action)
@@ -501,7 +501,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Catch Performance Regressions in Pull Requests](https://github.com/bencherdev/bencher)
 
 <!--lint disable no-undefined-references-->
-> [!WARNING]
+> [!NOTE]
 > The following projects are **archived** on GitHub:
 >
 > - [Automatically Rebase a PR](https://github.com/cirrus-actions/rebase)
@@ -523,7 +523,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Deploy to GitHub Pages With Advanced Settings](https://github.com/crazy-max/ghaction-github-pages)
 
 <!--lint disable no-undefined-references-->
-> [!WARNING]
+> [!NOTE]
 > The following projects are **archived** on GitHub:
 >
 > - [GitHub Action for Hexo](https://github.com/heowc/action-hexo)
@@ -603,7 +603,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Define Pools of Self-Hosted Action Runners on LXD, OpenStack or Other Clouds Using Garm](https://github.com/cloudbase/garm)
 
 <!--lint disable no-undefined-references-->
-> [!WARNING]
+> [!NOTE]
 > The following projects are **archived** on GitHub:
 >
 > - [Purge Cloudflare Cache After Updating a Site](https://github.com/jakejarvis/cloudflare-purge-action)
@@ -667,7 +667,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Generate Custom Response Using JSONBin](https://github.com/fabasoad/jsonbin-action)
 
 <!--lint disable no-undefined-references-->
-> [!WARNING]
+> [!NOTE]
 > The following projects are **archived** on GitHub:
 >
 > - [GitHub Action for Pixela](https://github.com/peaceiris/actions-pixela) - This Pixela Setup Action can install a-know/pi to a virtual machine of GitHub Actions.
@@ -687,7 +687,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Image Actions](https://github.com/calibreapp/image-actions) - Automatically compress JPEGs, PNGs and WebPs in Pull Requests.
 
 <!--lint disable no-undefined-references-->
-> [!WARNING]
+> [!NOTE]
 > The following projects are **archived** on GitHub:
 >
 > - [Execute Gradle Task](https://github.com/OrangeLabsMoe/gradle-actions)
@@ -700,7 +700,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Automatically Dockerize a Data-Science Repository As a Jupyter Server](https://github.com/jupyterhub/repo2docker-action)
 
 <!--lint disable no-undefined-references-->
-> [!WARNING]
+> [!NOTE]
 > The following projects are **archived** on GitHub:
 >
 > - [Submitting Argo Workflows (Cloud Agnostic)](https://github.com/machine-learning-apps/actions-argo)
@@ -723,7 +723,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Generate APK From Web Assets](https://github.com/darkshredder/web-to-app-action) - Transforms site to Android application.
 
 <!--lint disable no-undefined-references-->
-> [!WARNING]
+> [!NOTE]
 > The following projects are **archived** on GitHub:
 >
 > - [Generate ~/.m2/Settings.xml for Maven Builds](https://github.com/whelk-io/maven-settings-xml-action)
@@ -732,7 +732,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 ### Database
 
 <!--lint disable no-undefined-references-->
-> [!WARNING]
+> [!NOTE]
 > The following projects are **archived** on GitHub:
 >
 > - [Setup Cassandra Schema](https://github.com/fabasoad/setup-cassandra-action) - Running scripts from the provided folder on top of Cassandra cluster.
@@ -756,7 +756,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Add Equivalent of a Like Button in Your README.md](https://github.com/ariary/Readme-Like-Button) - Visualize community approval on some part of your README (can be used as a poll).
 
 <!--lint disable no-undefined-references-->
-> [!WARNING]
+> [!NOTE]
 > The following projects are **archived** on GitHub:
 >
 > - [Oh My GitHub Circles](https://github.com/hooopo/oh-my-github-circles) - GitHub User Circle Generator Using GitHub Actions.
@@ -767,7 +767,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [On-Demand Self-Hosted AWS EC2 Runner](https://github.com/machulav/ec2-github-runner)
 
 <!--lint disable no-undefined-references-->
-> [!WARNING]
+> [!NOTE]
 > The following projects are **archived** on GitHub:
 >
 > - [GitHub Actions Self-Hosted Runners Provisioning](https://github.com/samber/github-actions-runner)
