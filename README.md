@@ -500,6 +500,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Semantic Pull Request Composer](https://github.com/mateoguzmana/semantic-pr-composer) - Automatically composes the pull request title and body based on the branch name, which follows a semantic convention. Optional AI autocompletion using OpenAI completions API is also available.
 - [Get Merged Pull Requests](https://github.com/VanOns/get-merged-pull-requests-action) - GitHub Action that compares 2 tags and retrieves all pull requests merged between them.
 - [Catch Performance Regressions in Pull Requests](https://github.com/bencherdev/bencher)
+- [GitHub PR Bot](https://github.com/jacsamell/github-pr-bot) - AI-powered PR review bot with auto-approval capabilities using your LLM of choice.
 
 <!--lint disable no-undefined-references-->
 > [!NOTE]
