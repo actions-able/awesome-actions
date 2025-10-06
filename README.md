@@ -428,6 +428,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Automatically Approve and Merge Npm Dependency Updates (Provider Agnostic)](https://github.com/tjenkinson/gh-action-auto-merge-dependency-updates)
 - [GitGuardian Shield Against Exposed Credentials in Your Commits](https://github.com/GitGuardian/ggshield-action)
 - [Harden Runner](https://github.com/step-security/harden-runner) - Security agent for the GitHub-hosted runner to monitor the build process and prevent exfiltration of credentials.
+- [Agent Treasury Policy Linter](https://github.com/Amara-ops/policy-linter-action) - CI gate for agent-treasury policies (selector+chainId allowlists, spend caps, timelock/quorum, pause/logging).
 
 <!--lint disable no-undefined-references-->
 > [!NOTE]
