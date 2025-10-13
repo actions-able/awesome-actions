@@ -189,6 +189,8 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 > - [Continuous Distribution of Funding to Your Project Contributors and Dependencies](https://github.com/protontypes/libreselery)
 <!--lint enable no-undefined-references-->
 
+- [GitHub Workflows Assistant](https://github.com/puzl-cloud/github-workflow-assistant) - Bulk edit GitHub Actions workflows across repos and branches via UI.
+
 ### Collection of Actions
 
 - [Use HashiCorp's Terraform](https://github.com/hashicorp/setup-terraform)
