@@ -654,10 +654,10 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 
 #### Terraform
 
-- [Generate Terraform Documentation](https://github.com/Dirrk/terraform-docs) - Uses terraform-docs to generate docs for terraform modules.
+- [Generate Terraform Documentation](https://github.com/Dirrk/terraform-docs) - Uses terraform-docs to generate docs for Terraform modules.
 - [An Example of Using Terraform to Validate and Apply GitHub Administration](https://github.com/asgharlabs/github-terraform/tree/master/.github/workflows)
 - [GitHub Action for Infracost](https://github.com/infracost/actions) - See Cloud Cost Estimates for Terraform in Pull Requests.
-- [Saves the Terraform State File in an Azure Storage Account](https://github.com/ahmedig/terraform-azurerm-backend) - A GitHub Action that helps in using terraform with an Azure backend.
+- [Saves the Terraform State File in an Azure Storage Account](https://github.com/ahmedig/terraform-azurerm-backend) - A GitHub Action that helps in using Terraform with an Azure backend.
 
 ### External Services
 
