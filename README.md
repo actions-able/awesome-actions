@@ -460,7 +460,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Workflow Telemetry Action](https://github.com/runforesight/workflow-telemetry-action) - Tracks and monitors the resource metrics and process activities of your GitHub Action workflow runs.
 - [Test URLs in Markdown Files and Open Issues for Problems](https://github.com/caltechlibrary/baler)
 - [Lighthouse PR Commenter for Vercel](https://github.com/robbiecren07/lighthouse-vercel-action) - Runs Lighthouse audits against Vercel preview deployments and posts the scores as a pull request comment.
-- [CICube](https:/cicube.io) - Optimize your GitHub Actions with Insightful Analysis
+- [CICube](https:/cicube.io) - Optimize your GitHub Actions with Insightful Analysis.
 
 <!--lint disable no-undefined-references-->
 > [!NOTE]
