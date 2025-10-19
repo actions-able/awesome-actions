@@ -1,3 +1,4 @@
+<!--lint disable no-repeat-item-in-description-->
 <!-- markdownlint-disable MD033 MD041 -->
 <p align="center">
   <br>
