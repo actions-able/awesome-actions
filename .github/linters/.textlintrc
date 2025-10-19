@@ -1,5 +1,9 @@
 {
-  "plugins": { },
+  "plugins": {
+    "remark-lint": {
+      "no-repeat-item-in-description": false
+    }
+  },
   "filters": { },
   "rules": {
     "terminology": {
