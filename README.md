@@ -562,6 +562,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Notify New Pull Requests to Google Chats Room](https://github.com/ipacheco-uy/actions-chat) - Notify a Google Chats Room when a Pull-Request has been created with a nice card.
 - [Barklarm](https://github.com/kanekotic/barklarm) - Radiator that shows the status of your projects build as an item in the tray menu bar.
 - [Send Slack Message Via Slack API](https://github.com/slackapi/slack-github-action)
+- [Send Notifications About New Issues and PRs](https://github.com/reagento/relator)
 
 ### Deployment
 
