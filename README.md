@@ -361,6 +361,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Run Julia Tests](https://github.com/julia-actions/julia-runtest)
 - [Test Ansible Collections](https://github.com/ansible-community/ansible-test-gh-action)
 - [Display Report From the Test Results Directly in GitHub](https://github.com/dorny/test-reporter)
+- [Build and Test Swift Packages](https://github.com/brightdigit/swift-build)
 
 <!--lint disable no-undefined-references-->
 > [!NOTE]
@@ -801,3 +802,4 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Docker-Based GitHub Actions in Orphan Branches](https://madhead.me/posts/orphan-action)
 - [Adding Self-Hosted Runners](https://help.github.com/en/actions/hosting-your-own-runners/adding-self-hosted-runners)
 - [Configuring the Self-Hosted Runner Application As a Service](https://help.github.com/en/actions/hosting-your-own-runners/configuring-the-self-hosted-runner-application-as-a-service)
+- [Introducing Swift-Build: A GitHub Action for Swift](https://brightdigit.com/tutorials/swift-build/)
