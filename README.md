@@ -348,6 +348,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Run Tfsec, With Reviewdog Output on the PR](https://github.com/reviewdog/action-tfsec)
 - [Run Static Code Analysis Using JetBrains Qodana](https://github.com/jetbrains/qodana-action) - Scan your Go, Java, Kotlin, PHP, Python, JavaScript, TypeScript, .NET projects.
 - [Checkov Static Analysis](https://github.com/bridgecrewio/checkov-action) - Runs Checkov against infrastructure-as-code, open source packages, container images, and CI/CD configurations to identify misconfigurations, vulnerabilities, and license compliance issues.
+- [Lint Cursor AI Rules](https://github.com/cursorrulespacks/cursor-lint-action) - Lint .mdc and .cursorrules files, catching broken frontmatter and missing fields that silently break AI code generation.
 
 #### Testing
 
