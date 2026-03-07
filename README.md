@@ -429,6 +429,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Automatically Approve and Merge Npm Dependency Updates (Provider Agnostic)](https://github.com/tjenkinson/gh-action-auto-merge-dependency-updates)
 - [GitGuardian Shield Against Exposed Credentials in Your Commits](https://github.com/GitGuardian/ggshield-action)
 - [Harden Runner](https://github.com/step-security/harden-runner) - Security agent for the GitHub-hosted runner to monitor the build process and prevent exfiltration of credentials.
+- [Thr8](https://github.com/cybrking/thr8) - Auto-generates PASTA threat models with AI-powered kill chain analysis and remediation.
 
 <!--lint disable no-undefined-references-->
 > [!NOTE]
