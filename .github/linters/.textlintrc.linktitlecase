@@ -20,7 +20,6 @@
         "eks": "EKS",
         "fpc": "FPC",
         "gcp": "GCP",
-        "gh-workflow-hardener": "gh-workflow-hardener",
         "ghes": "GHES",
         "gitguardian": "GitGuardian",
         "gke": "GKE",
