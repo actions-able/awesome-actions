@@ -572,7 +572,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Barklarm](https://github.com/kanekotic/barklarm) - Radiator that shows the status of your projects build as an item in the tray menu bar.
 - [Send Slack Message Via Slack API](https://github.com/slackapi/slack-github-action)
 - [Send Notifications About New Issues and PRs](https://github.com/reagento/relator)
-- [Notify Cascade — send to Slack, email (SMTP), and custom webhooks in one step](https://github.com/kai-learner/notify-cascade)
+- [Notify Cascade](https://github.com/kai-learner/notify-cascade) - Send to Slack, Email (Smtp), and Custom Webhooks in One Step.
 
 ### Deployment
 
