@@ -517,9 +517,9 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 > [!CAUTION]
 > The following projects are **deleted** on GitHub:
 >
-> - [Set PR Reviewers Based on Assignees](https://github.com/pullreminders/assignee-to-reviewer-action), [retired by GitHub](https://github.blog/changelog/2022-03-23-pull-panda-is-shutting-down/)
->   - Use the GitHub [Code review assignment](https://docs.github.com/en/organizations/organizing-members-into-teams/managing-code-review-settings-for-your-team) feature.
-> - [Label PR Once It Has a Specified Number of Approvals](https://github.com/pullreminders/label-when-approved-action), [retired by GitHub](https://github.blog/changelog/2022-03-23-pull-panda-is-shutting-down/)
+> - [Set PR Reviewers Based on Assignees](https://github.com/pullreminders/assignee-to-reviewer-action), [Retired by GitHub](https://github.blog/changelog/2022-03-23-pull-panda-is-shutting-down/)
+>   - Use the GitHub [Code Review Assignment](https://docs.github.com/en/organizations/organizing-members-into-teams/managing-code-review-settings-for-your-team) feature.
+> - [Label PR Once It Has a Specified Number of Approvals](https://github.com/pullreminders/label-when-approved-action), [Retired by GitHub](https://github.blog/changelog/2022-03-23-pull-panda-is-shutting-down/)
 <!--lint enable no-undefined-references-->
 
 ### GitHub Pages
