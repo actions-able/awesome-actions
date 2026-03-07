@@ -150,7 +150,6 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Lock Closed Issues and Pull Requests After a Period of Inactivity](https://github.com/dessant/lock-threads)
 - [Get Commit Difference Count Between Two Branches](https://github.com/jessicalostinspace/commit-difference-action)
 - [Generate Release Notes Based on Git References](https://github.com/metcalfc/changelog-generator)
-- [Generate Beautiful Changelogs from Conventional Commits](https://github.com/NikitaDmitrieff/changelog-action) - Automatically generate formatted changelogs grouped by commit type, with support for custom templates.
 - [Enforce Policies on GitHub Repositories and Commits](https://github.com/talos-systems/conform)
 - [Auto Label Issue Based on Issue Description](https://github.com/Renato66/auto-label)
 - [Create Issue Branch](https://github.com/robvanderleek/create-issue-branch)
@@ -173,6 +172,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [GitHub Actions Access Tokens](https://github.com/qoomon/actions--access-token) - Get rid of PAT tokens, use temporary access tokens instead!
 - [Action Debug Visual Studio Code](https://github.com/fawazahmed0/action-debug-vscode) - Remote Access your GitHub Actions via Browser based Visual Studio Code.
 - [File Storage Action](https://github.com/moonrailgun/branch-filestorage-action) - Make GitHub repo's branch as file storage. Useful as a filedb persistence scheme.
+- [Generate Beautiful Changelogs From Conventional Commits](https://github.com/NikitaDmitrieff/changelog-action) - Automatically generate formatted changelogs grouped by commit type, with support for custom templates.
 
 <!--lint disable no-undefined-references-->
 > [!NOTE]
