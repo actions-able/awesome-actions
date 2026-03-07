@@ -503,7 +503,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Get Merged Pull Requests](https://github.com/VanOns/get-merged-pull-requests-action) - GitHub Action that compares 2 tags and retrieves all pull requests merged between them.
 - [Catch Performance Regressions in Pull Requests](https://github.com/bencherdev/bencher)
 - [GitHub PR Bot](https://github.com/jacsamell/github-pr-bot) - AI-powered PR review bot with auto-approval capabilities using your LLM of choice.
-- [AI Code Review with Claude](https://github.com/indoor47/claude-pr-reviewer) - Post structured AI code review comments on every PR using Claude. Zero dependencies, Python stdlib only.
+- [AI Code Review With Claude](https://github.com/indoor47/claude-pr-reviewer) - Post structured AI code review comments on every PR using Claude. Zero dependencies, Python stdlib only.
 
 <!--lint disable no-undefined-references-->
 > [!NOTE]
