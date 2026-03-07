@@ -470,9 +470,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 
 ### Pull Requests
 
-- [Set PR Reviewers Based on Assignees](https://github.com/pullreminders/assignee-to-reviewer-action)
 - [Open or Update PR on Branch Push (With Branch Selection)](https://github.com/vsoch/pull-request-action)
-- [Label PR Once It Has a Specified Number of Approvals](https://github.com/pullreminders/label-when-approved-action)
 - [Add Labels to a PR Based on Matched File Patterns](https://github.com/banyan/auto-label)
 - [Auto-Approve PRs](https://github.com/hmarr/auto-approve-action)
 - [Automatically Add Reviewers to PR Based on the Configuration File](https://github.com/kentaro-m/auto-assign-action)
@@ -513,6 +511,15 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 > - [Automatically Update PRs With Outdated Checks and Squash and Merge the Ones Matching All Branch Protections](https://github.com/tibdex/autosquash)
 > - [Block PR Merges When Checks for Target Branches Are Failing](https://github.com/cirrus-actions/branch-guard)
 >   - Use [GitHub App to Introduce Submit Queue](https://github.com/cirruslabs/gh-submit-queue) instead.
+<!--lint enable no-undefined-references-->
+
+<!--lint disable no-undefined-references-->
+> [!CAUTION]
+> The following projects are **deleted** on GitHub:
+>
+> - [Set PR Reviewers Based on Assignees](https://github.com/pullreminders/assignee-to-reviewer-action), [Retired by GitHub](https://github.blog/changelog/2022-03-23-pull-panda-is-shutting-down/)
+>   - Use the GitHub [Code Review Assignment](https://docs.github.com/en/organizations/organizing-members-into-teams/managing-code-review-settings-for-your-team) feature.
+> - [Label PR Once It Has a Specified Number of Approvals](https://github.com/pullreminders/label-when-approved-action), [Retired by GitHub](https://github.blog/changelog/2022-03-23-pull-panda-is-shutting-down/)
 <!--lint enable no-undefined-references-->
 
 ### GitHub Pages
