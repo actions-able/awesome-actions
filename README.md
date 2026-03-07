@@ -338,7 +338,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Increment Semantic Version](https://github.com/christian-draeger/increment-semantic-version) - Bump a given semantic version (SemVer), depending on given release type.
 - [SemVer Utils](https://github.com/madhead/semver-utils) - One-stop shop for working with semantic versions in your GitHub Actions workflows. Parsing, comparing and bumping SemVers in a single action.
 - [Git-Based Semantic Versioning](https://github.com/PaulHatch/semantic-version) - Customizable and automatic Git-based semantic version.
-- [Version Increment](https://github.com/reecetech/version-increment/) - Output the next version in semver, or calver (semver compliant) based on current tag.  Supports Python PEP440 as well.
+- [Version Increment](https://github.com/reecetech/version-increment/) - Output the next version in SemVer, or calver (SemVer compliant) based on current tag.  Supports Python PEP440 as well.
 
 ### Static Analysis
 
