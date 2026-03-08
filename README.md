@@ -547,7 +547,6 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 ### Notifications and Messages
 
 - [Send a Discord Notification](https://github.com/Ilshidur/action-discord)
-- [Post a Slack Message As a Bot](https://github.com/pullreminders/slack-action)
 - [Send an SMS From GitHub Actions Using Nexmo](https://github.com/nexmo-community/nexmo-sms-action)
 - [Send an SMS From GitHub Actions Using Clockworksms](https://github.com/bharathvaj1995/clockwork-sms-action)
 - [Send a Telegram Message](https://github.com/appleboy/telegram-action)
@@ -573,6 +572,13 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Barklarm](https://github.com/kanekotic/barklarm) - Radiator that shows the status of your projects build as an item in the tray menu bar.
 - [Send Slack Message Via Slack API](https://github.com/slackapi/slack-github-action)
 - [Send Notifications About New Issues and PRs](https://github.com/reagento/relator)
+
+<!--lint disable no-undefined-references-->
+> [!CAUTION]
+> The following projects are **deleted** on GitHub:
+>
+> - [Post a Slack Message As a Bot](https://github.com/pullreminders/slack-action), [Retired by GitHub](https://github.blog/changelog/2022-03-23-pull-panda-is-shutting-down/)
+<!--lint enable no-undefined-references-->
 
 ### Deployment
 
