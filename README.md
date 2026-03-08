@@ -349,7 +349,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Run Static Code Analysis Using JetBrains Qodana](https://github.com/jetbrains/qodana-action) - Scan your Go, Java, Kotlin, PHP, Python, JavaScript, TypeScript, .NET projects.
 - [Checkov Static Analysis](https://github.com/bridgecrewio/checkov-action) - Runs Checkov against infrastructure-as-code, open source packages, container images, and CI/CD configurations to identify misconfigurations, vulnerabilities, and license compliance issues.
 - [CICULLIS](https://github.com/midiakiasat/cicullis) - Deterministic CI gate enforcing irreversible decisions.
-- [AI Code Reviewer — Automated code review using Claude AI](https://github.com/avatrix1/ai-code-reviewer)
+- [AI Code Reviewer — Automated Code Review Using Claude AI](https://github.com/avatrix1/ai-code-reviewer)
 
 #### Testing
 
@@ -505,7 +505,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Get Merged Pull Requests](https://github.com/VanOns/get-merged-pull-requests-action) - GitHub Action that compares 2 tags and retrieves all pull requests merged between them.
 - [Catch Performance Regressions in Pull Requests](https://github.com/bencherdev/bencher)
 - [GitHub PR Bot](https://github.com/jacsamell/github-pr-bot) - AI-powered PR review bot with auto-approval capabilities using your LLM of choice.
-- [AI PR Description Generator — Auto-generate PR descriptions from diffs using Claude](https://github.com/avatrix1/ai-pr-description)
+- [AI PR Description Generator — Auto-Generate PR Descriptions From Diffs Using Claude](https://github.com/avatrix1/ai-pr-description)
 
 <!--lint disable no-undefined-references-->
 > [!NOTE]
