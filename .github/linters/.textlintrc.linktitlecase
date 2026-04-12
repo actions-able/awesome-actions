@@ -6,6 +6,7 @@
       "specialTerms": {
         "2fa": "2FA",
         ".net": ".NET",
+        "ai": "AI",
         "apk": "APK",
         "buildpulse": "BuildPulse",
         "cdk": "CDK",
@@ -27,6 +28,7 @@
         "goimports": "GoImports",
         "goreleaser": "GoReleaser",
         "gpg": "GPG",
+        "i18n": "i18n",
         "iam": "IAM",
         "jacoco": "JaCoCo",
         "jetbrains": "JetBrains",

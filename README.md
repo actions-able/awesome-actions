@@ -772,6 +772,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Localazy Upload Docker Action](https://github.com/localazy/upload) - Upload localizable files to the Localazy translation management platform.
 - [Localazy Download Docker Action](https://github.com/localazy/download) - Download localizable files from the Localazy translation management platform.
 - [AI Translate Action](https://github.com/FidelusAleksander/ai-translate-action) - Translate a text or text file to any language using GitHub Models and action's built-in secrets.GITHUB_TOKEN.
+- [AI-i18n](https://github.com/i18n-actions/ai-i18n) - Automatically translate i18n files (XLIFF, JSON) using LLM providers (Anthropic, OpenAI, Ollama) with glossary support, change detection, and reviewed translation preservation.
 
 ### Fun
 
