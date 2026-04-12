@@ -172,6 +172,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [GitHub Actions Access Tokens](https://github.com/qoomon/actions--access-token) - Get rid of PAT tokens, use temporary access tokens instead!
 - [Action Debug Visual Studio Code](https://github.com/fawazahmed0/action-debug-vscode) - Remote Access your GitHub Actions via Browser based Visual Studio Code.
 - [File Storage Action](https://github.com/moonrailgun/branch-filestorage-action) - Make GitHub repo's branch as file storage. Useful as a filedb persistence scheme.
+- [GitHub Workflows Assistant](https://github.com/puzl-cloud/github-workflow-assistant) - Bulk edit GitHub Actions workflows across repos and branches via UI.
 
 <!--lint disable no-undefined-references-->
 > [!NOTE]
