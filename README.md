@@ -622,6 +622,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Publish a Tableau Workbooks to Tableau Server](https://github.com/jayamanikharyono/tableau-workbook-action) - An Action to easily publish your Tableau Workbook to Tableau Server upon Pull Request.
 - [Deploy to Vercel](https://github.com/amondnet/vercel-action) - Deploying via GitHub Action allows more granular control than through the Vercel-GitHub integration.
 - [Define Pools of Self-Hosted Action Runners on LXD, OpenStack or Other Clouds Using Garm](https://github.com/cloudbase/garm)
+- [Deploy With RepoForge.io](https://github.com/chris104957/repoforge-publish-action)
 
 <!--lint disable no-undefined-references-->
 > [!NOTE]
