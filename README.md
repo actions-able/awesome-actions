@@ -463,6 +463,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Workflow Telemetry Action](https://github.com/runforesight/workflow-telemetry-action) - Tracks and monitors the resource metrics and process activities of your GitHub Action workflow runs.
 - [Test URLs in Markdown Files and Open Issues for Problems](https://github.com/caltechlibrary/baler)
 - [Lighthouse PR Commenter for Vercel](https://github.com/robbiecren07/lighthouse-vercel-action) - Runs Lighthouse audits against Vercel preview deployments and posts the scores as a pull request comment.
+- [CodeLayers Blast Radius](https://github.com/codelayers-ai/codelayers-action) - Posts an interactive 3D dependency graph as a PR comment showing the blast radius of code changes, color-coded by hop distance.
 
 <!--lint disable no-undefined-references-->
 > [!NOTE]
