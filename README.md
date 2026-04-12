@@ -706,6 +706,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - [Setup Mint](https://github.com/fabasoad/setup-mint-action) - Setup Mint (programming language for writing single page applications).
 - [Gatsby AWS S3 Deployment](https://github.com/jonelantha/gatsby-s3-action) - Deploy Gatsby to S3 (supports CloudFront).
 - [Image Actions](https://github.com/calibreapp/image-actions) - Automatically compress JPEGs, PNGs and WebPs in Pull Requests.
+- [Frostbyte Screenshot](https://github.com/OzorOwn/frostbyte-screenshot-action) - Take automated site screenshots in CI/CD. Supports 5 viewports, full-page capture, dark mode, and PR comments.
 
 <!--lint disable no-undefined-references-->
 > [!NOTE]
